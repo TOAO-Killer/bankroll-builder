@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BankrollBuilder — automation, research desk, capital tooling</title>
+    <meta
+      name="description"
+      content="BankrollBuilder is an independent solo technical services firm offering workflow automation, research & desk services, and capital tooling."
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="wrap site-header">
+      <a class="brand" href="index.html">BankrollBuilder</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#how">How it works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrap hero" aria-label="Introduction">
+        <p class="brand-mark">BankrollBuilder</p>
+        <h1>Technical services for operators who need work finished, not demos.</h1>
+        <p class="hero-lead">
+          Independent solo practice: workflow automation, research desk briefs, and capital
+          tooling — scoped, quoted, and delivered for paying clients.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:hello@bankrollbuilder.example?subject=Project%20inquiry"
+            >Email a project inquiry</a
+          >
+          <a class="btn btn-ghost" href="#services">See services</a>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="wrap">
+          <h2 class="reveal">Services</h2>
+          <p class="lede reveal">
+            Three paid lanes. Clear scope, fixed or capped pricing, delivery after payment terms
+            are agreed.
+          </p>
+          <ul class="service-list">
+            <li class="reveal">
+              <h3>Workflow automation</h3>
+              <p>
+                Scripts, integrations, reporting pipelines, and internal tooling that remove
+                repetitive work from your day.
+              </p>
+            </li>
+            <li class="reveal">
+              <h3>Research &amp; desk services</h3>
+              <p>
+                Structured research, source scouting, and desk briefs with citations — built for
+                decisions, not filler.
+              </p>
+            </li>
+            <li class="reveal">
+              <h3>Capital tooling</h3>
+              <p>
+                Ledger helpers, offer sheets, settlement checklists, and ops tools that keep money
+                paths auditable.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <div class="wrap">
+          <h2 class="reveal">How it works</h2>
+          <p class="lede reveal">Simple engagement. No invented buyers, no surprise upsells.</p>
+          <ol class="steps">
+            <li class="reveal">
+              <h3>Brief</h3>
+              <p>You email the outcome you need, constraints, and deadline.</p>
+            </li>
+            <li class="reveal">
+              <h3>Quote</h3>
+              <p>You get a written scope, price, and turnaround before work starts.</p>
+            </li>
+            <li class="reveal">
+              <h3>Deliver</h3>
+              <p>Work begins after agreed payment terms. You receive the artifact and a short run note.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="wrap">
+          <h2 class="reveal">Contact</h2>
+          <div class="contact-block reveal">
+            <p class="lede" style="margin: 0">
+              Ready to hire for a concrete deliverable? Send a short brief.
+            </p>
+            <a class="mail" href="mailto:hello@bankrollbuilder.example">hello@bankrollbuilder.example</a>
+            <p class="note">
+              Replace this placeholder address before public launch. This site does not collect
+              card numbers or store payment credentials.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap site-footer">
+      <span>© <span id="y"></span> BankrollBuilder · Solo technical services</span>
+      <span>
+        <a href="privacy.html">Privacy</a>
+        ·
+        <a href="terms.html">Terms</a>
+      </span>
+    </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
