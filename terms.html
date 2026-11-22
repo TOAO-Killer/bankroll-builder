@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Terms — BankrollBuilder</title>
-    <meta name="description" content="Terms of engagement stub for BankrollBuilder." />
+    <meta name="description" content="Terms of engagement for BankrollBuilder." />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,16 +15,27 @@
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="wrap site-header">
-      <a class="brand" href="index.html">BankrollBuilder</a>
-      <nav class="nav" aria-label="Primary">
-        <a href="index.html#services">Services</a>
-        <a href="index.html#contact">Contact</a>
+      <a class="brand" href="./">BankrollBuilder</a>
+      <button
+        type="button"
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        data-nav-toggle
+      >
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary" data-nav>
+        <a href="./#services">Services</a>
+        <a href="./#how">How it works</a>
+        <a href="./#contact">Contact</a>
         <a href="privacy.html">Privacy</a>
       </nav>
     </header>
 
-    <main class="wrap legal">
+    <main class="wrap legal" id="main">
       <h1>Terms</h1>
       <p>
         BankrollBuilder provides professional services: workflow automation, research &amp; desk
@@ -39,15 +50,24 @@
       </ul>
       <p>
         Questions:
-        <a href="mailto:hello@bankrollbuilder.example">hello@bankrollbuilder.example</a>
-        (placeholder — replace before public launch).
+        <a href="mailto:sdcomputernetworks@gmail.com">sdcomputernetworks@gmail.com</a>
       </p>
-      <p><a href="index.html">← Back to home</a></p>
+      <p><a href="./">← Back to home</a></p>
     </main>
 
     <footer class="wrap site-footer">
-      <span>© BankrollBuilder</span>
-      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+      <span>© <span id="y"></span> BankrollBuilder</span>
+      <span>
+        <a href="privacy.html">Privacy</a>
+        ·
+        <a href="terms.html">Terms</a>
+        ·
+        <a href="mailto:sdcomputernetworks@gmail.com">Contact</a>
+      </span>
     </footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/main.js"></script>
   </body>
 </html>

@@ -11,7 +11,12 @@ python -m http.server 8080 --bind 127.0.0.1
 
 Open: http://127.0.0.1:8080/
 
-## Notes
+## Live
 
-- Contact uses placeholder `hello@bankrollbuilder.example` — replace before public launch.
+https://toao-killer.github.io/bankroll-builder/
+
+## Contact & payments
+
+- Contact: `sdcomputernetworks@gmail.com` (from BankrollBuilder `CONTACT_EMAIL`)
+- Stripe Payment Link: `https://buy.stripe.com/6oU14g6Alc6M39E1NB38400`
 - No Stripe secret keys belong on this site.
