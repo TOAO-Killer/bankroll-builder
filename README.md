@@ -1,4 +1,4 @@
-# BankrollBuilder landing site
+﻿# BankrollBuilder landing site
 
 Static info site for Stripe business legitimacy: services overview, privacy, terms.
 
@@ -18,5 +18,5 @@ https://toao-killer.github.io/bankroll-builder/
 ## Contact & payments
 
 - Contact: Freak IT · `sdcomputernetworks@gmail.com` (from BankrollBuilder `PUBLIC_NAME` / `CONTACT_EMAIL`)
-- Stripe Payment Link: `https://buy.stripe.com/6oU14g6Alc6M39E1NB38400`
+- Stripe Payment Link: `https://buy.stripe.com/aFaeV60bX3Ag11wcsf38404`
 - No Stripe secret keys belong on this site.
