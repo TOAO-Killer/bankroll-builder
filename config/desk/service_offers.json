@@ -5,7 +5,7 @@
     "ethereum",
     "base"
   ],
-  "reason": "Hunt 06:00: conversion-tier chase $19-$79 first; mid-gap $22/$32 added if free; no $170+ invent inflate; NEW ua-*=0. PayPal not wired \u2014 skipped.",
+  "reason": "Hunt 10:00: conversion-tier chase $19-$79 first; mid-gap $20/$23 added if free; no $170+ invent inflate; NEW ua-*=0. PayPal not wired \u2014 skipped.",
   "paypal_fee_rate": 0,
   "paypal_fee_fixed_usd": 0,
   "machine_usd": 1999,
@@ -2509,6 +2509,142 @@
         "usdc"
       ],
       "cycle": "bb-zerocap-hunt-chase-20261126-06",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "meta_description_pass_26",
+      "name": "Meta description pass (same-day)",
+      "price_usd": 26.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite one page meta description + matching OG title (\u2264155 chars meta, \u226470 chars OG) aimed at clearer buy-intent SERP/snippet copy. Markdown same-day after payment clears. Fills mid-gap between $24 hero subhead and $27 settle retry.",
+      "stripe_url": "https://buy.stripe.com/aFa28kbUF6MsbGa4ZN3843x",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-07",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "footer_nav_pass_36",
+      "name": "Footer nav pass (48h)",
+      "price_usd": 36.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: rewrite one footer / secondary-nav link set (up to 8 labels + one-line column headings) for clearer trust/buy-path wording. Markdown within 48h after payment. Fills mid-gap between $34 listing copy and $38 offer blurb.",
+      "stripe_url": "https://buy.stripe.com/bJe14g4sdc6M7pU9g33843y",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-07",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "button_label_pass_30",
+      "name": "Button label pass (same-day)",
+      "price_usd": 30.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite up to 6 primary/secondary button labels on one page (\u226424 chars each) for clearer buy/next-step wording, plus a one-line rationale table. Markdown same-day after payment clears. Fills mid-gap between $28 FAQ rewrite and $32 empty-state.",
+      "stripe_url": "https://buy.stripe.com/aFa8wIaQB9YE11wfEr3843z",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-08",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "form_placeholder_pass_33",
+      "name": "Form placeholder pass (48h)",
+      "price_usd": 33.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: rewrite one checkout/lead form placeholder + helper-text set (up to 8 fields: placeholder, helper, and one error hint each) for clearer complete-and-pay wording. Markdown within 48h after payment. Fills mid-gap between $32 empty-state and $34 listing copy.",
+      "stripe_url": "https://buy.stripe.com/4gMbIU6Al2wc4dI8bZ3843A",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-08",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "alert_banner_copy_pass_25",
+      "name": "Alert banner copy pass (same-day)",
+      "price_usd": 25.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite up to 4 site/app alert or toast banners (title \u226440 chars + body \u226490 chars each) for clearer next-step / pay-now wording, plus a one-line rationale table. Markdown same-day after payment clears. Fills mid-gap between $24 hero subhead tighten and $26 meta description.",
+      "stripe_url": "https://buy.stripe.com/eVq3co8It3Ag25A63R3843B",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261126-09",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "checkbox_consent_copy_pass_31",
+      "name": "Checkbox consent copy pass (48h)",
+      "price_usd": 31.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: rewrite one checkout/signup consent + checkbox label set (up to 6 labels + short helper lines) for clearer agree-and-continue wording. Markdown within 48h after payment. Fills mid-gap between $30 button label and $32 empty-state.",
+      "stripe_url": "https://buy.stripe.com/eVqbIU6Al4EkcKefEr3843C",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261126-09",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "loading_state_copy_pass_20",
+      "name": "Loading state copy pass (same-day)",
+      "price_usd": 20.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite up to 4 loading/spinner/skeleton status lines (\u226448 chars each) plus one short 'still working' reassurance for a single page flow, with a one-line rationale table. Markdown same-day after payment clears. Fills mid-gap between $19 landing CTA rewrite and $22 nav link label.",
+      "stripe_url": "https://buy.stripe.com/00wfZa6Al6Ms6lQeAn3843D",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-10",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "hover_hint_copy_pass_23",
+      "name": "Hover hint copy pass (same-day)",
+      "price_usd": 23.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite up to 6 hover/tooltip/title-attribute hints (\u226460 chars each) on one page for clearer next-step / buy guidance, plus a one-line rationale table. Markdown same-day after payment. Fills mid-gap between $22 nav link label and $24 hero subhead tighten.",
+      "stripe_url": "https://buy.stripe.com/6oUcMY4sd3Ag9y23VJ3843E",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-10",
       "invent_inventory": false,
       "conversion_tier": true,
       "lane": "cash_push",
