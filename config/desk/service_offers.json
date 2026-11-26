@@ -1,0 +1,2518 @@
+{
+  "active": true,
+  "payment": "usdc",
+  "chains": [
+    "ethereum",
+    "base"
+  ],
+  "reason": "Hunt 06:00: conversion-tier chase $19-$79 first; mid-gap $22/$32 added if free; no $170+ invent inflate; NEW ua-*=0. PayPal not wired \u2014 skipped.",
+  "paypal_fee_rate": 0,
+  "paypal_fee_fixed_usd": 0,
+  "machine_usd": 1999,
+  "recommended_id": "landing_cta_rewrite_19",
+  "offers": [
+    {
+      "id": "same_day_fix",
+      "name": "Same-day Python fix or script",
+      "price_usd": 160,
+      "turnaround": "1 day after the USDC transfer is seen",
+      "scope": "One bugfix or one small script with a short note on how to run it. Work starts after 160 USDC arrives."
+    },
+    {
+      "id": "small_automation",
+      "name": "Small automation",
+      "price_usd": 320,
+      "turnaround": "2 days after the USDC transfer is seen",
+      "scope": "A CLI or report job with sample input and a test. Work starts after 320 USDC arrives."
+    },
+    {
+      "id": "research_memo",
+      "name": "Cited research memo",
+      "price_usd": 80,
+      "turnaround": "2 days after the USDC transfer is seen",
+      "scope": "An 800 to 1,200 word memo with sources. Work starts after 80 USDC arrives."
+    },
+    {
+      "id": "urgent_page",
+      "name": "Urgent one-page deliverable",
+      "price_usd": 40,
+      "turnaround": "Same day after the USDC transfer is seen",
+      "scope": "One short page: a checklist, a cited note, or a single script. Work starts after 40 USDC arrives. This is the first-receipt price while the machine is urgent."
+    },
+    {
+      "id": "data_cleanup",
+      "name": "Small data cleanup",
+      "price_usd": 120,
+      "turnaround": "2 days after the USDC transfer is seen",
+      "scope": "Clean one spreadsheet or CSV and return the file plus a short note. Work starts after 120 USDC arrives."
+    },
+    {
+      "id": "page_translation",
+      "name": "One-page translation",
+      "price_usd": 70,
+      "turnaround": "2 days after the USDC transfer is seen",
+      "scope": "Translate one page between English and another language the buyer names. Work starts after 70 USDC arrives."
+    },
+    {
+      "id": "caption_pass",
+      "name": "Caption pass",
+      "price_usd": 60,
+      "turnaround": "2 days after the USDC transfer is seen",
+      "scope": "Caption one short recording and return the text file. Work starts after 60 USDC arrives."
+    },
+    {
+      "id": "source_list",
+      "name": "Sourced reading list",
+      "price_usd": 90,
+      "turnaround": "2 days after the USDC transfer is seen",
+      "scope": "A list of primary sources on one question, each with a link and a one-line note. Work starts after 90 USDC arrives."
+    },
+    {
+      "id": "agent_ops_stripe_desk_playbook",
+      "name": "Agent-ops Stripe\u2192desk playbook",
+      "price_usd": 95.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Agent-ops Stripe\u2192desk playbook. Work starts after 95 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cIcMY4sd4Ek6lQ8bZ3840C",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-offer-factory-multirail-20261123"
+    },
+    {
+      "id": "offer_distribution_kit",
+      "name": "Offer distribution kit",
+      "price_usd": 175.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Offer distribution kit. Work starts after 175 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oU28kcYJ1s825Adwj3840D",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-offer-factory-multirail-20261123"
+    },
+    {
+      "id": "velocity_autonomy_setup_brief",
+      "name": "Velocity autonomy setup brief",
+      "price_usd": 290.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Velocity autonomy setup brief. Work starts after 290 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/8x2cMYaQB6Ms7pU2RF3840E",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-offer-factory-multirail-20261123"
+    },
+    {
+      "id": "secrets_rotation_runbook",
+      "name": "Secrets rotation runbook",
+      "price_usd": 210.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Secrets rotation runbook. Work starts after 210 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cI3co6Al7Qw5hMgIv3840F",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-offer-factory-multirail-20261123"
+    },
+    {
+      "id": "incident_timeline_pack",
+      "name": "Incident timeline reconstruction pack",
+      "price_usd": 385.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Incident timeline reconstruction pack. Work starts after 385 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00wdR2bUFfiYcKe2RF3840G",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-offer-factory-multirail-20261123"
+    },
+    {
+      "id": "hollow_receipt_verifier_135",
+      "name": "Hollow-success receipt verifier pack",
+      "price_usd": 135.0,
+      "turnaround": "1 day after Stripe paid or USDC transfer is seen",
+      "scope": "Digital pack: hollow-success detector checklist + sample verifier script + artifact-presence tests for agent subtasks. Delivery after Stripe paid or USDC settles.",
+      "stripe_url": "https://buy.stripe.com/3cI6oA4sd9YEdOicsf3840Y",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-online-scout-20261123",
+      "brief_id": "brief_hollow_receipt_verifier"
+    },
+    {
+      "id": "approval_join_key_audit_155",
+      "name": "Approval/invoice join-key audit",
+      "price_usd": 155.0,
+      "turnaround": "1 day after Stripe paid or USDC transfer is seen",
+      "scope": "Agent-fulfilled audit: map approval keys \u2192 invoice/charge amounts, find mismatch classes, deliver fix notes + regression checks. Starts after payment.",
+      "stripe_url": "https://buy.stripe.com/7sY7sEgaVfiYdOi2RF3840Z",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-online-scout-20261123",
+      "brief_id": "brief_approval_join_key_audit"
+    },
+    {
+      "id": "compaction_reverse_index_205",
+      "name": "Compaction memory reverse-index kit",
+      "price_usd": 205.0,
+      "turnaround": "1 day after Stripe paid or USDC transfer is seen",
+      "scope": "Digital kit: reverse-index schema for compacted claims, provenance join examples, and a small Python helper. Delivery after Stripe/USDC payment.",
+      "stripe_url": "https://buy.stripe.com/3cIaEQe2N8UAaC69g338410",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-online-scout-20261123",
+      "brief_id": "brief_compaction_reverse_index"
+    },
+    {
+      "id": "write_ack_delivery_harness_145",
+      "name": "Write-ack vs delivery proof harness",
+      "price_usd": 145.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Write-ack vs delivery proof harness. Work starts after 145 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/5kQdR2bUFb2I7pU2RF38411",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261123-23"
+    },
+    {
+      "id": "sla_breach_postmortem_template",
+      "name": "SLA breach postmortem template",
+      "price_usd": 165.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: SLA breach postmortem template. Work starts after 165 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/5kQ9AMaQBgn29y20Jx38412",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261123-23"
+    },
+    {
+      "id": "dedupe_lease_failure_tests_185",
+      "name": "Dedupe-key failure test suite",
+      "price_usd": 185.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Dedupe-key failure test suite. Work starts after 185 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/dRm14g1g1daQaC677V38413",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261123-23"
+    },
+    {
+      "id": "agent_sandbox_egress_policy",
+      "name": "Agent sandbox egress policy",
+      "price_usd": 245.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Agent sandbox egress policy. Work starts after 245 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sY7sE3o9gn2h0u4ZN38414",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261123-23"
+    },
+    {
+      "id": "chaos_abort_criteria_pack",
+      "name": "Chaos abort-criteria pack",
+      "price_usd": 370.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Agent-fulfilled digital deliverable: Chaos abort-criteria pack. Work starts after 370 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B6fZa5wh0o425AfEr38415",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261123-23"
+    },
+    {
+      "id": "restore_revoke_permission_175",
+      "name": "Restore-revoke permission drill",
+      "price_usd": 175.0,
+      "turnaround": "1 day after Stripe paid or USDC transfer is seen",
+      "scope": "Permission revoke-on-restore drill + checklist for agent worker checkpoints. Delivery after Stripe paid or USDC settles.",
+      "stripe_url": "https://buy.stripe.com/aFadR28It7Qwh0uak738416",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-buyer-chase-20261123-23",
+      "brief_id": "brief_restore_revoke_permissions"
+    },
+    {
+      "id": "wallet_chain_reconcile_95",
+      "name": "Wallet-vs-chain USDC reconcile note",
+      "price_usd": 95.0,
+      "turnaround": "1 day after Stripe paid or USDC transfer is seen",
+      "scope": "Short reconcile memo + script pattern for wallet UI vs on-chain USDC balance. Delivery after Stripe paid or USDC settles.",
+      "stripe_url": "https://buy.stripe.com/9B67sE2k57QwaC63VJ38417",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-buyer-chase-20261123-23",
+      "brief_id": "brief_wallet_vs_chain_reconcile"
+    },
+    {
+      "id": "agent_ops_directory_featured_7d",
+      "name": "Agent-ops directory featured listing (7-day)",
+      "price_usd": 49.0,
+      "turnaround": "1\u20132 days after USDC or Stripe paid",
+      "scope": "Invented inventory SKU: Agent-ops directory featured listing (7-day). Fulfill digitally after 49 USDC or Stripe. Zero float to sell.",
+      "stripe_url": "https://buy.stripe.com/7sY5kwcYJ5Io4dI8bZ38418",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-creative-lowfloat-20261123",
+      "inventory_type": "creative_low_float_zero_cap"
+    },
+    {
+      "id": "agent_ops_newsletter_sponsor_slot",
+      "name": "Agent-ops newsletter sponsor slot (1 issue)",
+      "price_usd": 69.0,
+      "turnaround": "1\u20132 days after USDC or Stripe paid",
+      "scope": "Invented inventory SKU: Agent-ops newsletter sponsor slot (1 issue). Fulfill digitally after 69 USDC or Stripe. Zero float to sell.",
+      "stripe_url": "https://buy.stripe.com/28E8wI6Al4Ek8tY9g338419",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-creative-lowfloat-20261123",
+      "inventory_type": "creative_low_float_zero_cap"
+    },
+    {
+      "id": "community_stream_midroll_prepaid",
+      "name": "Community stream midroll sponsor (prepaid)",
+      "price_usd": 89.0,
+      "turnaround": "1\u20132 days after USDC or Stripe paid",
+      "scope": "Invented inventory SKU: Community stream midroll sponsor (prepaid). Fulfill digitally after 89 USDC or Stripe. Zero float to sell.",
+      "stripe_url": "https://buy.stripe.com/14A00c0bX4Ek5hMbob3841a",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-creative-lowfloat-20261123",
+      "inventory_type": "creative_low_float_zero_cap"
+    },
+    {
+      "id": "tool_access_pass_7d",
+      "name": "Agent-ops tool access pass (7-day prepaid)",
+      "price_usd": 129.0,
+      "turnaround": "1\u20132 days after USDC or Stripe paid",
+      "scope": "Invented inventory SKU: Agent-ops tool access pass (7-day prepaid). Fulfill digitally after 129 USDC or Stripe. Zero float to sell.",
+      "stripe_url": "https://buy.stripe.com/7sYfZa9Mxgn28tY1NB3841b",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-creative-lowfloat-20261123",
+      "inventory_type": "creative_low_float_zero_cap"
+    },
+    {
+      "id": "classified_events_ad_slot_1w",
+      "name": "Agent-ops classified / events ad slot (1 week)",
+      "price_usd": 39.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified / events ad slot (1 week). Fulfillment after 39 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cI9AM1g15IocKe8bZ3841c",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-00",
+      "invent_inventory": true
+    },
+    {
+      "id": "podcast_midroll_sponsor_prepaid",
+      "name": "Agent-ops podcast midroll sponsor (prepaid)",
+      "price_usd": 55.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops podcast midroll sponsor (prepaid). Fulfillment after 55 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B6fZa3o90o48tYfEr3841d",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-00",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_banner_slot_7d",
+      "name": "Agent-ops directory banner slot (7-day)",
+      "price_usd": 75.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory banner slot (7-day). Fulfillment after 75 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cIcMYcYJ6Ms25Aak73841e",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-00",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_sponsor_pack_2x",
+      "name": "Agent-ops newsletter sponsor pack (2 issues)",
+      "price_usd": 119.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter sponsor pack (2 issues). Fulfillment after 119 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oU9AM4sd7QwcKeak73841f",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-00",
+      "invent_inventory": true
+    },
+    {
+      "id": "tool_access_pass_30d",
+      "name": "Agent-ops tool access pass (30-day prepaid)",
+      "price_usd": 199.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops tool access pass (30-day prepaid). Fulfillment after 199 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/5kQ14g8It7Qwh0ugIv3841g",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-00",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_banner_sponsor_7d",
+      "name": "Community stream banner sponsor (7-day prepaid)",
+      "price_usd": 45.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream banner sponsor (7-day prepaid). Fulfillment after 45 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/bJecMY0bXeeUh0ueAn3841h",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-ceo-20261124-01",
+      "invent_inventory": true
+    },
+    {
+      "id": "mcp_tools_featured_pack_7d",
+      "name": "MCP / agent-tools featured pack (7-day)",
+      "price_usd": 99.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: MCP / agent-tools featured pack (7-day). Fulfillment after 99 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oUaEQ9Mx4EkeSm63R3841i",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-ceo-20261124-01",
+      "invent_inventory": true
+    },
+    {
+      "id": "office_hours_seat_prepaid",
+      "name": "Agent-ops office hours seat (prepaid 60m)",
+      "price_usd": 149.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops office hours seat (prepaid 60m). Fulfillment after 149 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa7sEf6R6Ms7pUfEr3841j",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-ceo-20261124-01",
+      "invent_inventory": true
+    },
+    {
+      "id": "hiring_spotlight_48h",
+      "name": "Agent-ops hiring / job spotlight (48-hour)",
+      "price_usd": 29.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops hiring / job spotlight (48-hour). Fulfillment after 29 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa6oA8It4Ekh0u4ZN3841k",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-01",
+      "invent_inventory": true
+    },
+    {
+      "id": "podcast_shownotes_sponsor_prepaid",
+      "name": "Agent-ops podcast show-notes sponsor (prepaid)",
+      "price_usd": 59.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops podcast show-notes sponsor (prepaid). Fulfillment after 59 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/14AbIU1g13AgaC61NB3841l",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-01",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_preroll_sponsor_prepaid",
+      "name": "Community stream pre-roll sponsor (prepaid)",
+      "price_usd": 85.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream pre-roll sponsor (prepaid). Fulfillment after 85 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/4gMcMY0bX6Ms6lQ3VJ3841m",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-01",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_newsletter_combo_7d",
+      "name": "Directory featured + newsletter mention combo (7-day)",
+      "price_usd": 109.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Directory featured + newsletter mention combo (7-day). Fulfillment after 109 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B67sE0bX0o46lQcsf3841n",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-01",
+      "invent_inventory": true
+    },
+    {
+      "id": "outbound_chase_pack_7d",
+      "name": "Outbound buyer-chase pack (7-day)",
+      "price_usd": 170.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Outbound buyer-chase pack (7-day). Fulfillment after 170 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00wbIU9Mx3AgeSm9g33841o",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-01",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "multi_rail_checkout_wire_assist",
+      "name": "Multi-rail checkout wire assist",
+      "price_usd": 225.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Multi-rail checkout wire assist. Fulfillment after 225 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa5kwaQB1s84dI1NB3841p",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-01",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "velocity_ops_desk_hardening",
+      "name": "Velocity ops desk hardening pass",
+      "price_usd": 315.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Velocity ops desk hardening pass. Fulfillment after 315 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00w00c2k50o4fWq2RF3841q",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-01",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "cors_cookie_auth_debug_brief",
+      "name": "CORS / cookie-auth debug brief",
+      "price_usd": 105.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: CORS / cookie-auth debug brief. Fulfillment after 105 USDC or Stripe.",
+      "stripe_url": "https://buy.stripe.com/dRm9AMgaVgn2fWqeAn3841r",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-01",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "classified_flash_bump_24h",
+      "name": "Agent-ops classified flash bump (24-hour)",
+      "price_usd": 35.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified flash bump (24-hour). Fulfillment after 35 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/14A3co3o93Ag5hM2RF3841s",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-02",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_intro_blurb_1issue",
+      "name": "Agent-ops newsletter intro blurb (1 issue)",
+      "price_usd": 65.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter intro blurb (1 issue). Fulfillment after 65 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/cNifZa1g16Ms39E3VJ3841t",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-02",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_sidebar_mention_7d",
+      "name": "Agent-ops directory sidebar mention (7-day)",
+      "price_usd": 79.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory sidebar mention (7-day). Fulfillment after 79 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00wcMY0bXb2IbGa8bZ3841u",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261124-02",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_weekend_pin_48h",
+      "name": "Agent-ops classified weekend pin (48-hour)",
+      "price_usd": 37.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified weekend pin (48-hour). Fulfillment after 37 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/fZu6oA7Ep4EkaC61NB3841v",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-03",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_chat_shoutout_24h",
+      "name": "Community stream chat shoutout (24-hour)",
+      "price_usd": 47.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream chat shoutout (24-hour). Fulfillment after 47 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/5kQbIU4sd4Ek9y263R3841w",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-03",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_midweek_bump_48h",
+      "name": "Agent-ops classified midweek bump (48-hour)",
+      "price_usd": 41.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified midweek bump (48-hour). Fulfillment after 41 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/28EaEQ6Al6Msh0u9g33841x",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-04",
+      "invent_inventory": true
+    },
+    {
+      "id": "podcast_teaser_sponsor_prepaid",
+      "name": "Agent-ops podcast teaser sponsor (prepaid)",
+      "price_usd": 53.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops podcast teaser sponsor (prepaid). Fulfillment after 53 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oU00c4sd6Ms6lQ63R3841y",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-04",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_morning_bump_24h",
+      "name": "Agent-ops classified morning bump (24-hour)",
+      "price_usd": 43.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified morning bump (24-hour). Fulfillment after 43 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/dRmfZae2N2wc39E8bZ3841z",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-05",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_ps_mention_1issue",
+      "name": "Agent-ops newsletter P.S. mention (1 issue)",
+      "price_usd": 57.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter P.S. mention (1 issue). Fulfillment after 57 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa4gsaQBb2IbGabob3841A",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-05",
+      "invent_inventory": true
+    },
+    {
+      "id": "webhook_delivery_gap_audit_115",
+      "name": "Webhook delivery gap audit",
+      "price_usd": 115.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Webhook delivery gap audit. Fulfillment after 115 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00w4gs7Epb2IdOi1NB3841B",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-05",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "agent_desk_triage_pack_140",
+      "name": "Agent desk triage pack",
+      "price_usd": 140.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Agent desk triage pack. Fulfillment after 140 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVq3cocYJ9YE4dI1NB3841C",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-05",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "usdc_settle_ledger_assist_195",
+      "name": "USDC settle + ledger assist",
+      "price_usd": 195.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: USDC settle + ledger assist. Fulfillment after 195 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/fZucMYcYJdaQ9y2fEr3841D",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-05",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "directory_weekend_spotlight_48h",
+      "name": "Agent-ops directory weekend spotlight (48-hour)",
+      "price_usd": 51.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory weekend spotlight (48-hour). Fulfillment after 51 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sYbIUe2N2wc6lQbob3841E",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-06",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_midissue_callout_1issue",
+      "name": "Agent-ops newsletter mid-issue callout (1 issue)",
+      "price_usd": 61.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter mid-issue callout (1 issue). Fulfillment after 61 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sY4gs8It9YEfWq77V3841F",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-06",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_weekend_takeover_48h",
+      "name": "Community stream weekend takeover shoutout (48-hour)",
+      "price_usd": 63.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream weekend takeover shoutout (48-hour). Fulfillment after 63 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/fZuaEQgaV5Io11weAn3841G",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-07",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_footer_cta_1issue",
+      "name": "Agent-ops newsletter footer CTA block (1 issue)",
+      "price_usd": 67.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter footer CTA block (1 issue). Fulfillment after 67 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/8x2bIUcYJ2wc6lQ63R3841H",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-07",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_midweek_spotlight_48h",
+      "name": "Agent-ops directory midweek spotlight (48-hour)",
+      "price_usd": 71.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory midweek spotlight (48-hour). Fulfillment after 71 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/cNi3cobUF0o4eSm2RF3841I",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-08",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_sponsor_strip_1issue",
+      "name": "Agent-ops newsletter mid-issue sponsor strip (1 issue)",
+      "price_usd": 77.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter mid-issue sponsor strip (1 issue). Fulfillment after 77 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sY4gse2N7Qw9y263R3841J",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-08",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_evening_bump_24h",
+      "name": "Agent-ops classified evening bump (24-hour)",
+      "price_usd": 73.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified evening bump (24-hour). Fulfillment after 73 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B600c5wh8UA5hMak73841K",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261124-09",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "stream_sidebar_mention_7d",
+      "name": "Community stream sidebar mention (7-day)",
+      "price_usd": 81.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream sidebar mention (7-day). Fulfillment after 81 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa5kw7Ep7Qw11w2RF3841L",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261124-09",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "stripe_webhook_replay_brief_125",
+      "name": "Stripe webhook replay brief",
+      "price_usd": 125.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Stripe webhook replay brief. Fulfillment after 125 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa00c2k5c6M4dI9g33841M",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261124-09",
+      "invent_inventory": false,
+      "sku_kind": "service_demand",
+      "lane": "opp"
+    },
+    {
+      "id": "landing_cta_conversion_audit_152",
+      "name": "Landing CTA conversion audit",
+      "price_usd": 152.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Landing CTA conversion audit. Fulfillment after 152 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/4gMdR29MxfiY8tY0Jx3841N",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261124-09",
+      "invent_inventory": false,
+      "sku_kind": "service_demand",
+      "lane": "opp"
+    },
+    {
+      "id": "stream_lower_third_mention_24h",
+      "name": "Community stream lower-third mention (24-hour)",
+      "price_usd": 83.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream lower-third mention (24-hour). Fulfillment after 83 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/dRm9AM8It4Ek9y2csf3841O",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-10",
+      "invent_inventory": true
+    },
+    {
+      "id": "podcast_cold_open_sponsor_prepaid",
+      "name": "Agent-ops podcast cold-open sponsor (prepaid)",
+      "price_usd": 87.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops podcast cold-open sponsor (prepaid). Fulfillment after 87 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/dRm28kaQB0o425A8bZ3841P",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-10",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_endcard_mention_24h",
+      "name": "Community stream end-card mention (24-hour)",
+      "price_usd": 91.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream end-card mention (24-hour). Fulfillment after 91 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/4gMdR2gaVb2I11w4ZN3841Q",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-11",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_hero_banner_1issue",
+      "name": "Agent-ops newsletter hero banner (1 issue)",
+      "price_usd": 97.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter hero banner (1 issue). Fulfillment after 97 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/bJe28kcYJ6Ms4dIcsf3841R",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-11",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_featured_listing_48h",
+      "name": "Agent-ops directory featured listing (48-hour)",
+      "price_usd": 93.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory featured listing (48-hour). Fulfillment after 93 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cIfZagaV3AgbGa3VJ3841S",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-12",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_hosted_read_24h",
+      "name": "Community stream hosted-read mention (24-hour)",
+      "price_usd": 101.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream hosted-read mention (24-hour). Fulfillment after 101 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVqeV61g14Ek25AeAn3841T",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-12",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_category_pin_48h",
+      "name": "Agent-ops directory category pin (48-hour)",
+      "price_usd": 94.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory category pin (48-hour). Fulfillment after 94 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B68wI7Ep8UAdOi4ZN3841U",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-13",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_sponsor_reply_1issue",
+      "name": "Agent-ops newsletter sponsor reply block (1 issue)",
+      "price_usd": 100.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter sponsor reply block (1 issue). Fulfillment after 100 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sY14ge2N0o4bGa3VJ3841V",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-13",
+      "invent_inventory": true
+    },
+    {
+      "id": "settle_receipt_gap_brief_106",
+      "name": "Settle receipt gap brief",
+      "price_usd": 106.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Settle receipt gap brief. Fulfillment after 106 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/28E5kwcYJ2wcfWqak73841W",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-13",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "agent_outbound_sequence_audit_122",
+      "name": "Agent outbound sequence audit",
+      "price_usd": 122.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Agent outbound sequence audit. Fulfillment after 122 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/14A00c0bX3Ag8tY1NB3841X",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-13",
+      "invent_inventory": false,
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "directory_tool_chip_48h",
+      "name": "Agent-ops directory tool-chip highlight (48-hour)",
+      "price_usd": 96.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory tool-chip highlight (48-hour). Fulfillment after 96 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/dRm7sEbUFgn26lQ2RF3841Y",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-14",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_preroll_mention_24h",
+      "name": "Community stream pre-roll mention (24-hour)",
+      "price_usd": 98.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream pre-roll mention (24-hour). Fulfillment after 98 USDC or Stripe clears.",
+      "stripe_url": "https://buy.stripe.com/aFaaEQe2N0o4h0ugIv3841Z",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-14",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_logo_tile_48h",
+      "name": "Agent-ops directory logo tile (48-hour)",
+      "price_usd": 92.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory logo tile (48-hour). Fulfillment after 92 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/14A14gcYJ8UA6lQfEr38420",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-15",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_midroll_chip_24h",
+      "name": "Community stream midroll chip mention (24-hour)",
+      "price_usd": 88.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream midroll chip mention (24-hour). Fulfillment after 88 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/4gMfZagaV8UA6lQ0Jx38421",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-15",
+      "invent_inventory": true
+    },
+    {
+      "id": "stream_midroll_sticker_24h",
+      "name": "Community stream midroll sticker mention (24-hour)",
+      "price_usd": 86.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Community stream midroll sticker mention (24-hour). Fulfillment after 86 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00w8wI5wh0o4aC663R38422",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-16",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_homepage_pin_48h",
+      "name": "Agent-ops directory homepage pin (48-hour)",
+      "price_usd": 102.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory homepage pin (48-hour). Fulfillment after 102 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oU8wI9Mx1s88tYak738423",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-16",
+      "invent_inventory": true
+    },
+    {
+      "id": "newsletter_ps_bump_1issue",
+      "name": "Newsletter PS bump (1 issue)",
+      "price_usd": 82.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Newsletter PS bump (1 issue). Fulfillment after 82 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/28EaEQ0bX4EkcKe8bZ38424",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261124-17",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "directory_sidebar_chip_48h",
+      "name": "Directory sidebar chip (48-hour)",
+      "price_usd": 84.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Directory sidebar chip (48-hour). Fulfillment after 84 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVq00c7Ep8UAdOi8bZ38425",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261124-17",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "checkout_friction_map_112",
+      "name": "Checkout friction map brief",
+      "price_usd": 112.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Checkout friction map brief. Fulfillment after 112 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/cNi28k7Ep4Ek9y277V38426",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261124-17",
+      "invent_inventory": false,
+      "sku_kind": "service_demand",
+      "lane": "opp"
+    },
+    {
+      "id": "idempotency_key_audit_128",
+      "name": "Idempotency key audit pack",
+      "price_usd": 128.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Idempotency key audit pack. Fulfillment after 128 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sYcMY0bXfiYh0u0Jx38427",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261124-17",
+      "invent_inventory": false,
+      "sku_kind": "service_demand",
+      "lane": "opp"
+    },
+    {
+      "id": "classified_afternoon_bump_24h",
+      "name": "Agent-ops classified afternoon bump (24-hour)",
+      "price_usd": 78.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified afternoon bump (24-hour). Fulfillment after 78 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/8x24gs4sd3Ag5hMcsf38428",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-18",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_footer_chip_48h",
+      "name": "Agent-ops directory footer chip (48-hour)",
+      "price_usd": 103.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory footer chip (48-hour). Fulfillment after 103 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B66oA4sd4Ekh0u9g338429",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-18",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_late_day_bump_24h",
+      "name": "Agent-ops classified late-day bump (24-hour)",
+      "price_usd": 76.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified late-day bump (24-hour). Fulfillment after 76 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/5kQ28k5whdaQ8tYbob3842a",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-19",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_nav_chip_48h",
+      "name": "Agent-ops directory nav chip (48-hour)",
+      "price_usd": 104.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory nav chip (48-hour). Fulfillment after 104 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/bJe7sEaQB4EkcKe0Jx3842b",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-19",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_twilight_bump_24h",
+      "name": "Agent-ops classified twilight bump (24-hour)",
+      "price_usd": 74.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified twilight bump (24-hour). Fulfillment after 74 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oU8wIbUF6Ms5hM77V3842c",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-20",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_rail_chip_48h",
+      "name": "Agent-ops directory rail chip (48-hour)",
+      "price_usd": 108.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory rail chip (48-hour). Fulfillment after 108 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVq14gf6R4EkeSm8bZ3842d",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-20",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_midnight_bump_24h",
+      "name": "Agent-ops classified midnight bump (24-hour)",
+      "price_usd": 72.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified midnight bump (24-hour). Fulfillment after 72 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVq7sE1g17QwcKe9g33842e",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-21",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_header_chip_48h",
+      "name": "Agent-ops directory header chip (48-hour)",
+      "price_usd": 107.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory header chip (48-hour). Fulfillment after 107 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/8x23co7Ep1s8bGa0Jx3842f",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-21",
+      "invent_inventory": true
+    },
+    {
+      "id": "payment_link_copy_audit_110",
+      "name": "Payment-link copy audit brief",
+      "price_usd": 110.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service deliverable: Payment-link copy audit brief. Fulfillment after 110 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00w6oAe2N5IofWqak73842g",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-21",
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "webhook_signature_verify_118",
+      "name": "Webhook signature verify pack",
+      "price_usd": 118.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service deliverable: Webhook signature verify pack. Fulfillment after 118 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/4gMfZa6AldaQbGaeAn3842h",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-opp-20261124-21",
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "directory_subnav_chip_48h",
+      "name": "Agent-ops directory subnav chip (48-hour)",
+      "price_usd": 111.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory subnav chip (48-hour). Fulfillment after 111 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa9AM8It6MsbGaeAn3842i",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-22",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_after_hours_bump_24h",
+      "name": "Agent-ops classified after-hours bump (24-hour)",
+      "price_usd": 113.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified after-hours bump (24-hour). Fulfillment after 113 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oU5kw9Mxc6MeSmdwj3842j",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-22",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_owl_shift_bump_24h",
+      "name": "Agent-ops classified owl-shift bump (24-hour)",
+      "price_usd": 114.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified owl-shift bump (24-hour). Fulfillment after 114 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B614ggaV2wcbGa4ZN3842k",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-23",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_breadcrumb_chip_48h",
+      "name": "Agent-ops directory breadcrumb chip (48-hour)",
+      "price_usd": 116.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory breadcrumb chip (48-hour). Fulfillment after 116 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/cNi7sE3o9gn2fWqbob3842l",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261124-23",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_graveyard_bump_24h",
+      "name": "Agent-ops classified graveyard bump (24-hour)",
+      "price_usd": 117.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified graveyard bump (24-hour). Fulfillment after 117 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/14AcMYcYJ0o46lQdwj3842m",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-00",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_filter_chip_48h",
+      "name": "Agent-ops directory filter chip (48-hour)",
+      "price_usd": 121.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory filter chip (48-hour). Fulfillment after 121 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00w7sE6Al6Ms4dIak73842n",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-00",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_pre_dawn_bump_24h",
+      "name": "Agent-ops classified pre-dawn bump (24-hour)",
+      "price_usd": 123.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified pre-dawn bump (24-hour). Fulfillment after 123 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFafZa7EpeeUaC60Jx3842o",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261125-01",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "directory_results_chip_48h",
+      "name": "Agent-ops directory results chip (48-hour)",
+      "price_usd": 124.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory results chip (48-hour). Fulfillment after 124 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/cNi8wI6AldaQdOigIv3842p",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261125-01",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "webhook_timeout_budget_brief_126",
+      "name": "Webhook timeout budget brief",
+      "price_usd": 126.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Webhook timeout budget brief. Fulfillment after 126 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cI14gcYJ5IoeSm0Jx3842q",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261125-01",
+      "invent_inventory": false,
+      "sku_kind": "service_demand",
+      "lane": "opp"
+    },
+    {
+      "id": "multi_rail_receipt_matrix_130",
+      "name": "Multi-rail receipt matrix pack",
+      "price_usd": 130.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Multi-rail receipt matrix pack. Fulfillment after 130 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B6aEQgaV4EkfWq0Jx3842r",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-20261125-01",
+      "invent_inventory": false,
+      "sku_kind": "service_demand",
+      "lane": "opp"
+    },
+    {
+      "id": "classified_blue_hour_bump_24h",
+      "name": "Agent-ops classified blue-hour bump (24-hour)",
+      "price_usd": 127.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified blue-hour bump (24-hour). Fulfillment after 127 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/5kQ4gs1g13AgbGafEr3842s",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-02",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_facets_chip_48h",
+      "name": "Agent-ops directory facets chip (48-hour)",
+      "price_usd": 131.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory facets chip (48-hour). Fulfillment after 131 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/bJecMY4sd2wc5hM2RF3842t",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-02",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_civil_twilight_bump_24h",
+      "name": "Agent-ops classified civil-twilight bump (24-hour)",
+      "price_usd": 132.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified civil-twilight bump (24-hour). Fulfillment after 132 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/4gMeV6gaVgn25hMgIv3842u",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-03",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_sort_chip_48h",
+      "name": "Agent-ops directory sort chip (48-hour)",
+      "price_usd": 133.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory sort chip (48-hour). Fulfillment after 133 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00wfZa0bX5Io9y20Jx3842v",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-03",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_golden_hour_bump_24h",
+      "name": "Agent-ops classified golden-hour bump (24-hour)",
+      "price_usd": 134.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified golden-hour bump (24-hour). Fulfillment after 134 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/8x23co7Epgn2h0udwj3842w",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-04",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_pager_chip_48h",
+      "name": "Agent-ops directory pager chip (48-hour)",
+      "price_usd": 136.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory pager chip (48-hour). Fulfillment after 136 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/fZu6oAbUFgn2fWq0Jx3842x",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-04",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_sunrise_bump_24h",
+      "name": "Agent-ops classified sunrise bump (24-hour)",
+      "price_usd": 137.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified sunrise bump (24-hour). Fulfillment after 137 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sY7sE8It9YE8tY9g33842y",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-opp-hunt-20261125-05",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "directory_tab_chip_48h",
+      "name": "Agent-ops directory tab chip (48-hour)",
+      "price_usd": 138.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory tab chip (48-hour). Fulfillment after 138 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cIdR28It2wc4dIfEr3842z",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-opp-hunt-20261125-05",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "settle_confirm_ladder_brief_139",
+      "name": "Settle confirm ladder brief",
+      "price_usd": 139.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service deliverable: Settle confirm ladder brief. Written pack after 139 USDC (ethereum/base) or Stripe card/Link clears.",
+      "stripe_url": "https://buy.stripe.com/14A8wIcYJ1s8fWq0Jx3842A",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-opp-hunt-20261125-05",
+      "invent_inventory": false,
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "checkout_rail_failover_audit_141",
+      "name": "Checkout rail failover audit",
+      "price_usd": 141.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service deliverable: Checkout rail failover audit. Written pack after 141 USDC (ethereum/base) or Stripe card/Link clears.",
+      "stripe_url": "https://buy.stripe.com/bJefZa8It6MscKecsf3842B",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-opp-hunt-20261125-05",
+      "invent_inventory": false,
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "classified_commute_bump_24h",
+      "name": "Agent-ops classified commute bump (24-hour)",
+      "price_usd": 142.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified commute bump (24-hour). Fulfillment after 142 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/28EdR2e2Ngn25hMgIv3842C",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-06",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_query_chip_48h",
+      "name": "Agent-ops directory query chip (48-hour)",
+      "price_usd": 143.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory query chip (48-hour). Fulfillment after 143 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oU6oAgaV3AgdOifEr3842D",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-06",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_rush_hour_bump_24h",
+      "name": "Agent-ops classified rush-hour bump (24-hour)",
+      "price_usd": 144.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified rush-hour bump (24-hour). Fulfillment after 144 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa5kwf6R1s8bGaeAn3842E",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-07",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_search_chip_48h",
+      "name": "Agent-ops directory search chip (48-hour)",
+      "price_usd": 146.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory search chip (48-hour). Fulfillment after 146 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/28EaEQ9Mxb2IcKe4ZN3842F",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-07",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_midday_peak_bump_24h",
+      "name": "Agent-ops classified midday-peak bump (24-hour)",
+      "price_usd": 147.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified midday-peak bump (24-hour). Fulfillment after 147 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/8x2bIUe2NfiYeSmgIv3842G",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-08",
+      "invent_inventory": true
+    },
+    {
+      "id": "directory_suggest_chip_48h",
+      "name": "Agent-ops directory suggest chip (48-hour)",
+      "price_usd": 148.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory suggest chip (48-hour). Fulfillment after 148 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/cNibIUf6R1s85hMak73842H",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-08",
+      "invent_inventory": true
+    },
+    {
+      "id": "classified_lunch_window_bump_24h",
+      "name": "Agent-ops classified lunch-window bump (24-hour)",
+      "price_usd": 150.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified lunch-window bump (24-hour). Fulfillment after 150 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00w6oAcYJ5Io4dI63R3842I",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-stack-20261125-09",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "directory_autocomplete_chip_48h",
+      "name": "Agent-ops directory autocomplete chip (48-hour)",
+      "price_usd": 151.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory autocomplete chip (48-hour). Fulfillment after 151 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sY3cof6R3AgfWqak73842J",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-stack-20261125-09",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "webhook_signature_clock_skew_brief_153",
+      "name": "Webhook signature clock-skew brief",
+      "price_usd": 153.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Webhook signature clock-skew brief. Fulfillment after 153 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/cNi3coaQB0o439EeAn3842K",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-stack-20261125-09",
+      "invent_inventory": false,
+      "sku_kind": "service_demand",
+      "lane": "opp"
+    },
+    {
+      "id": "multi_rail_status_matrix_154",
+      "name": "Multi-rail status matrix pack",
+      "price_usd": 154.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service/demand deliverable: Multi-rail status matrix pack. Fulfillment after 154 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVqcMY3o96Ms6lQfEr3842L",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-stack-20261125-09",
+      "invent_inventory": false,
+      "sku_kind": "service_demand",
+      "lane": "opp"
+    },
+    {
+      "id": "classified_siesta_bump_24h",
+      "name": "Agent-ops classified siesta-window bump (24-hour)",
+      "price_usd": 156.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified siesta-window bump (24-hour). Fulfillment after 156 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/fZu6oA8It9YEh0ubob3842M",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-10",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "directory_typeahead_chip_48h",
+      "name": "Agent-ops directory typeahead chip (48-hour)",
+      "price_usd": 157.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory typeahead chip (48-hour). Fulfillment after 157 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cIfZae2Ngn2dOi9g33842N",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-10",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "classified_tea_time_bump_24h",
+      "name": "Agent-ops classified tea-time bump (24-hour)",
+      "price_usd": 158.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified tea-time bump (24-hour). Fulfillment after 158 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa5kw1g1gn28tY77V3842O",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-11",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "directory_snippet_chip_48h",
+      "name": "Agent-ops directory snippet chip (48-hour)",
+      "price_usd": 159.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory snippet chip (48-hour). Fulfillment after 159 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVqaEQcYJ6MsbGacsf3842P",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-11",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "classified_happy_hour_bump_24h",
+      "name": "Agent-ops classified happy-hour bump (24-hour)",
+      "price_usd": 161.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified happy-hour bump (24-hour). Fulfillment after 161 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/00waEQ1g1b2IbGacsf3842Q",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-12",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "directory_preview_chip_48h",
+      "name": "Agent-ops directory preview chip (48-hour)",
+      "price_usd": 162.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory preview chip (48-hour). Fulfillment after 162 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/dRmfZa2k58UA6lQ0Jx3842R",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-12",
+      "invent_inventory": true,
+      "sku_kind": "invent_inventory",
+      "lane": "hunt"
+    },
+    {
+      "id": "classified_power_hour_bump_24h",
+      "name": "Agent-ops classified power-hour bump (24-hour)",
+      "price_usd": 163.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified power-hour bump (24-hour). Fulfillment after 163 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oUfZabUF2wcbGa0Jx3842S",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-opp-hunt-20261125-13",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "directory_hover_chip_48h",
+      "name": "Agent-ops directory hover chip (48-hour)",
+      "price_usd": 164.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory hover chip (48-hour). Fulfillment after 164 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/5kQeV68ItfiY6lQ0Jx3842T",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-opp-hunt-20261125-13",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "receipt_latency_budget_brief_166",
+      "name": "Receipt latency budget brief",
+      "price_usd": 166.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service deliverable: Receipt latency budget brief. Written pack after 166 USDC (ethereum/base) or Stripe card/Link clears.",
+      "stripe_url": "https://buy.stripe.com/14A9AM1g17Qw8tY77V3842U",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-opp-hunt-20261125-13",
+      "invent_inventory": false,
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "multi_rail_fallback_matrix_167",
+      "name": "Multi-rail fallback matrix",
+      "price_usd": 167.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service deliverable: Multi-rail fallback matrix. Written pack after 167 USDC (ethereum/base) or Stripe card/Link clears.",
+      "stripe_url": "https://buy.stripe.com/7sYbIUf6R3Ag9y23VJ3842V",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-opp-hunt-20261125-13",
+      "invent_inventory": false,
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "classified_prime_time_bump_24h",
+      "name": "Agent-ops classified prime-time bump (24-hour)",
+      "price_usd": 168.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified prime-time bump (24-hour). Fulfillment after 168 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVqaEQ7Epgn29y2ak73842W",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-14",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "directory_focus_ring_chip_48h",
+      "name": "Agent-ops directory focus-ring chip (48-hour)",
+      "price_usd": 169.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory focus-ring chip (48-hour). Fulfillment after 169 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/5kQ00c2k5c6M6lQ77V3842X",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-14",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "classified_dinner_hour_bump_24h",
+      "name": "Agent-ops classified dinner-hour bump (24-hour)",
+      "price_usd": 171.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified dinner-hour bump (24-hour). Fulfillment after 171 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa5kw7EpdaQ8tYak73842Y",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-15",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "directory_active_state_chip_48h",
+      "name": "Agent-ops directory active-state chip (48-hour)",
+      "price_usd": 172.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory active-state chip (48-hour). Fulfillment after 172 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/6oU6oAcYJ8UA11wdwj3842Z",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-15",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "stream_preroll_chip_24h",
+      "name": "Agent-ops stream preroll chip (24-hour)",
+      "price_usd": 173.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops stream preroll chip (24-hour). Fulfillment after 173 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/8x28wI5wh9YEbGadwj38430",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-15",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "classified_late_prime_bump_24h",
+      "name": "Agent-ops classified late-prime bump (24-hour)",
+      "price_usd": 174.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified late-prime bump (24-hour). Fulfillment after 174 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/3cIfZae2N4EkcKe2RF38431",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-16",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "directory_selected_chip_48h",
+      "name": "Agent-ops directory selected-state chip (48-hour)",
+      "price_usd": 176.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory selected-state chip (48-hour). Fulfillment after 176 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/4gM4gs0bXb2I7pU3VJ38432",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-16",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "stream_bumper_chip_24h",
+      "name": "Agent-ops stream bumper chip (24-hour)",
+      "price_usd": 177.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops stream bumper chip (24-hour). Fulfillment after 177 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVq9AMbUF4Ek8tY1NB38433",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-16",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "classified_wrap_up_bump_24h",
+      "name": "Agent-ops classified wrap-up bump (24-hour)",
+      "price_usd": 178.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified wrap-up bump (24-hour). Fulfillment after 178 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B628k4sd3AgdOi2RF38434",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-20261125-17",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "directory_pressed_chip_48h",
+      "name": "Agent-ops directory pressed-state chip (48-hour)",
+      "price_usd": 179.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory pressed-state chip (48-hour). Fulfillment after 179 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/28E9AM0bXfiY39E0Jx38435",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-20261125-17",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "newsletter_eyebrow_callout_1issue",
+      "name": "Agent-ops newsletter eyebrow callout (1 issue)",
+      "price_usd": 180.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops newsletter eyebrow callout (1 issue). Fulfillment after 180 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/7sY4gs6Alc6M9y2ak738436",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-20261125-17",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "settle_ack_timeout_brief_181",
+      "name": "Settle ack timeout brief",
+      "price_usd": 181.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service deliverable: Settle ack timeout brief. Written pack after 181 USDC (ethereum/base) or Stripe card/Link clears.",
+      "stripe_url": "https://buy.stripe.com/00wbIU1g15IoeSm4ZN38437",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-20261125-17",
+      "invent_inventory": false,
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "multi_rail_retry_matrix_182",
+      "name": "Multi-rail retry matrix pack",
+      "price_usd": 182.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Service deliverable: Multi-rail retry matrix pack. Written pack after 182 USDC (ethereum/base) or Stripe card/Link clears.",
+      "stripe_url": "https://buy.stripe.com/cNi28kf6R0o4bGaak738438",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-ceo-opp-hunt-20261125-17",
+      "invent_inventory": false,
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "id": "classified_closeout_bump_24h",
+      "name": "Agent-ops classified closeout bump (24-hour)",
+      "price_usd": 183.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified closeout bump (24-hour). Fulfillment after 183 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/dRm8wIcYJc6M39E9g338439",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-18",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "directory_disabled_chip_48h",
+      "name": "Agent-ops directory disabled-state chip (48-hour)",
+      "price_usd": 184.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory disabled-state chip (48-hour). Fulfillment after 184 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/dRm5kwe2N9YE9y263R3843a",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-18",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "stream_stinger_chip_24h",
+      "name": "Agent-ops stream stinger chip (24-hour)",
+      "price_usd": 186.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops stream stinger chip (24-hour). Fulfillment after 186 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/14AcMYe2N7QweSm3VJ3843b",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-18",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "classified_last_call_bump_24h",
+      "name": "Agent-ops classified last-call bump (24-hour)",
+      "price_usd": 187.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops classified last-call bump (24-hour). Fulfillment after 187 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/aFa00c4sd1s839E8bZ3843c",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-19",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "directory_empty_chip_48h",
+      "name": "Agent-ops directory empty-state chip (48-hour)",
+      "price_usd": 188.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops directory empty-state chip (48-hour). Fulfillment after 188 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/eVqbIUcYJ3Ag25A8bZ3843d",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-19",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "stream_outro_chip_24h",
+      "name": "Agent-ops stream outro chip (24-hour)",
+      "price_usd": 189.0,
+      "turnaround": "1\u20132 days after USDC transfer is seen (or Stripe paid)",
+      "scope": "Invented inventory / digital seat: Agent-ops stream outro chip (24-hour). Fulfillment after 189 USDC arrives (ethereum/base) or Stripe card/Link payment clears.",
+      "stripe_url": "https://buy.stripe.com/9B63cof6Rc6MaC6ak73843e",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-19",
+      "invent_inventory": true,
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "id": "landing_cta_rewrite_19",
+      "name": "Landing CTA rewrite pack (same-day)",
+      "price_usd": 19.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite one landing hero CTA + supporting sentence for buy-now clarity. Deliver Markdown brief + suggested button copy. Same-day after Stripe card/Link or USDC. Not invent inventory \u2014 concrete deliverable.",
+      "stripe_url": "https://buy.stripe.com/bJe4gs3o9gn2h0u0Jx3843f",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-cash-push-20261125-19b",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "settle_retry_checklist_27",
+      "name": "Settle-retry checklist (same-day)",
+      "price_usd": 27.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: one-page settle-retry checklist covering Stripe paid vs USDC confirm gaps, idempotency, and ack timeouts. Markdown deliverable same-day after payment. Distinct from $106 settle receipt gap brief.",
+      "stripe_url": "https://buy.stripe.com/00waEQf6R3AgdOigIv3843g",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-cash-push-20261125-19b",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "listing_copy_pack_34",
+      "name": "Listing copy pack (3 blurbs, 48h)",
+      "price_usd": 34.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: three short listing blurbs (title + 2-sentence body + CTA) for a tool, MCP, or service the buyer names. Digital pack within 48h after Stripe/USDC.",
+      "stripe_url": "https://buy.stripe.com/5kQeV6f6R5Io4dIeAn3843h",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-cash-push-20261125-19b",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "outbound_callout_rewrite_46",
+      "name": "Outbound callout rewrite (same-day)",
+      "price_usd": 46.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite one outbound email/DM callout sequence (subject + body + CTA) aimed at a real buyer list the client provides. Same-day Markdown deliverable. Not a 7-day chase pack ($170).",
+      "stripe_url": "https://buy.stripe.com/7sY4gs1g16Ms9y263R3843i",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-cash-push-20261125-19b",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "checkout_friction_mini_audit_54",
+      "name": "Checkout friction mini-audit (48h)",
+      "price_usd": 54.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: mini audit of one public checkout/payment-link page \u2014 list top friction points and 5 concrete copy/UX fixes. Markdown brief within 48h. Lighter than $112 checkout friction map.",
+      "stripe_url": "https://buy.stripe.com/4gM9AMf6R1s89y2ak73843j",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-cash-push-20261125-19b",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "multi_rail_status_onepager_68",
+      "name": "Multi-rail settle status one-pager (48h)",
+      "price_usd": 68.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: one-pager mapping Stripe vs USDC settle status for the buyer's rails \u2014 states, who confirms, and retry path. Markdown within 48h. Cheaper than $154 multi-rail status matrix pack.",
+      "stripe_url": "https://buy.stripe.com/28EeV60bX8UAeSmdwj3843k",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-cash-push-20261125-19b",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "offer_blurb_tighten_38",
+      "name": "Offer blurb tighten (same-day)",
+      "price_usd": 38.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: tighten one existing offer blurb (title + 2 sentences + CTA) for buy-now clarity. Markdown same-day after Stripe card/Link or USDC. Fills mid-gap between $34 listing pack and $46 outbound rewrite.",
+      "stripe_url": "https://buy.stripe.com/14A6oAcYJ5Io8tYcsf3843l",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-20",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "payment_link_copy_pass_58",
+      "name": "Payment-link copy pass (48h)",
+      "price_usd": 58.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: rewrite copy for one public Stripe Payment Link / checkout page (headline, supporting line, button label). Markdown within 48h after payment. Fills mid-gap between $54 mini-audit and $68 multi-rail one-pager.",
+      "stripe_url": "https://buy.stripe.com/3cIaEQ2k50o4cKeeAn3843m",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-20261125-20",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "desk_board_headline_pass_42",
+      "name": "Desk-board headline pass (same-day)",
+      "price_usd": 42.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite one desk-board / offer-board headline + subhead + single CTA for buy-now clarity. Markdown same-day after Stripe card/Link or USDC. Fills mid-gap between $38 blurb tighten and $46 outbound rewrite.",
+      "stripe_url": "https://buy.stripe.com/8x28wIf6Rgn2eSm2RF3843n",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-hunt-opp-20261125-21",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "receipt_email_plain_pass_56",
+      "name": "Receipt-email plain-English pass (48h)",
+      "price_usd": 56.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: plain-English rewrite of one Stripe/USDC receipt or confirmation email (subject + 3 short paragraphs + next-step CTA). Markdown within 48h after payment. Fills mid-gap between $54 mini-audit and $58 payment-link copy.",
+      "stripe_url": "https://buy.stripe.com/8x23co9Mxb2I6lQ77V3843o",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-combo-hunt-opp-20261125-21",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "cta_microcopy_tighten_44",
+      "name": "CTA microcopy tighten pass (same-day)",
+      "price_usd": 44.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: tighten one primary CTA label + helper line + button microcopy for buy-now clarity (Stripe card/Link or USDC). Markdown same-day after payment clears. Fills mid-gap between $42 desk-board headline and $46 outbound rewrite.",
+      "stripe_url": "https://buy.stripe.com/7sYcMY0bXb2IcKe63R3843p",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-22",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "success_page_copy_pass_52",
+      "name": "Checkout success-page copy pass (48h)",
+      "price_usd": 52.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: rewrite one post-checkout success / thank-you page block (headline + 2 short paragraphs + next-step CTA). Markdown within 48h after payment. Fills mid-gap between $46 outbound rewrite and $54 checkout friction mini-audit.",
+      "stripe_url": "https://buy.stripe.com/eVq9AMaQB2wc7pU77V3843q",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-22",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "hero_subhead_tighten_24",
+      "name": "Hero subhead tighten pass (same-day)",
+      "price_usd": 24.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: tighten one landing hero subhead + supporting sentence for buy-now clarity (Stripe card/Link or USDC). Markdown same-day after payment clears. Fills mid-gap between $19 landing CTA rewrite and $27 settle-retry checklist.",
+      "stripe_url": "https://buy.stripe.com/8x28wIf6R2wc39E8bZ3843r",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-23",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "error_state_copy_pass_48",
+      "name": "Checkout error-state copy pass (48h)",
+      "price_usd": 48.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: rewrite one checkout / payment error-state block (title + short recovery line + retry CTA). Markdown within 48h after payment. Fills mid-gap between $46 outbound rewrite and $52 success-page copy pass.",
+      "stripe_url": "https://buy.stripe.com/4gM14gf6RfiY8tY8bZ3843s",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261125-23",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "faq_answer_rewrite_28",
+      "name": "FAQ answer rewrite pack (same-day)",
+      "price_usd": 28.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite one FAQ answer (question restated + clear buy-path answer + CTA line) for Stripe card/Link or USDC buyers. Markdown same-day after payment clears. Fills mid-gap between $27 settle-retry checklist and $34 listing copy pack.",
+      "stripe_url": "https://buy.stripe.com/7sY5kw0bX8UA25A9g33843t",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-05",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "thankyou_cta_pass_50",
+      "name": "Thank-you page CTA pass (48h)",
+      "price_usd": 50.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: rewrite one post-checkout thank-you / confirmation CTA block (headline + next-step sentence + secondary link). Markdown within 48h after payment. Fills mid-gap between $48 error-state copy and $52 success-page copy pass.",
+      "stripe_url": "https://buy.stripe.com/5kQ9AMcYJ0o4aC63VJ3843u",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-05",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "nav_link_label_pass_22",
+      "name": "Nav link label pass (same-day)",
+      "price_usd": 22.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite one primary nav / header link label set (up to 5 labels + hover/aria text) aimed at clearer buy-path wording. Markdown same-day after payment clears. Fills mid-gap between $19 landing CTA and $24 hero subhead.",
+      "stripe_url": "https://buy.stripe.com/fZu00c6Al1s89y2gIv3843v",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-06",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "empty_state_copy_pass_32",
+      "name": "Empty-state copy pass (48h)",
+      "price_usd": 32.0,
+      "turnaround": "within 48h after payment clears",
+      "scope": "Agent-fulfilled: rewrite one empty-state / zero-results copy block (headline + one supporting sentence + recovery CTA). Markdown within 48h after payment. Fills mid-gap between $28 FAQ rewrite and $34 listing copy pack.",
+      "stripe_url": "https://buy.stripe.com/6oU14g5whb2IbGa3VJ3843w",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261126-06",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    }
+  ]
+}

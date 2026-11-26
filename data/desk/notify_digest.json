@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "updated_at_denver": "2026-11-26T06:09:36-07:00",
+  "updated_at_utc": "2026-11-26T13:09:36+00:00",
+  "check_type": "manual",
+  "surface": "project_chat",
+  "policy": {
+    "primary_accept_path": "project_chat",
+    "cli_ops_only": true,
+    "coordinator_apply": "python -m bankroll velocity user-approvals accept|decline --id <id>"
+  },
+  "stack_health": {
+    "host": "DESKTOP-N5P6TAA",
+    "status": "UP",
+    "components": {
+      "velocity": {
+        "up": true,
+        "procs": [
+          {
+            "pid": 1636,
+            "cmd": "\"C:\\WINDOWS\\system32\\cmd.exe\" /c call start_velocity.bat "
+          },
+          {
+            "pid": 13740,
+            "cmd": "\"C:\\Users\\marcu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\"  -m bankroll velocity run --interval-minutes 15 "
+          }
+        ]
+      },
+      "dashboard_8080": {
+        "up": true,
+        "ok": true,
+        "status": 200
+      },
+      "stripe_listen": {
+        "up": true,
+        "procs": [
+          {
+            "pid": 9020,
+            "cmd": "C:\\Users\\marcu\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Stripe.StripeCli_Microsoft.Winget.Source_8wekyb3d8bbwe\\stripe.exe listen --live --forward-to 127.0.0.1:8080/api/stripe/webhoo"
+          }
+        ]
+      },
+      "stripe_watchdog": {
+        "up": true,
+        "procs": [
+          {
+            "pid": 19408,
+            "cmd": "\"C:\\Users\\marcu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\"  scripts\\stripe_listen_watchdog.py --replace "
+          }
+        ]
+      }
+    },
+    "probed_at_denver": "2026-11-26T06:09:36-07:00"
+  },
+  "cash_booked_usd": 0.0,
+  "OPEN_APPROVALS": [
+    {
+      "id": "ua-67781ddf97f9",
+      "type": "outsource",
+      "summary": "Contract print-on-demand merch fulfillment for BankrollBuilder brand drops",
+      "estimated_cost_usd": 180.0,
+      "thesis": "Test a small merch drop (stickers/tees) via a POD contractor to seed brand presence. Requires outsourcing manufacturing/fulfillment beyond agent-owned digital delivery.",
+      "risk": "Upfront sample spend, shipping defects, weak conversion vs digital SKUs.",
+      "next_step": "If accepted: user picks POD vendor + budget cap; agents only draft designs/listings. If declined: skip merch entirely.",
+      "created_at": "2026-11-24T04:33:16.346951+00:00",
+      "chat_action": "Reply in Project chat: accept ua-67781ddf97f9  OR  decline ua-67781ddf97f9. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-aec1b0000c4b",
+      "type": "capital",
+      "summary": "Seed inventory for undervalued GPU/workstation resale arbitrage",
+      "estimated_cost_usd": 450.0,
+      "thesis": "Buy one undervalued workstation/GPU lot below sold comps and flip for 25–40% spread (or keep parts for the local agent rig). Requires capital outlay before any sale.",
+      "risk": "Illiquid inventory, fees/shipping eat spread, cash tied up vs hardware gap priority.",
+      "next_step": "If accepted: user sets max buy price + venue; agents only scout comps. If declined: keep service-for-parts barter only.",
+      "created_at": "2026-11-24T04:33:16.366840+00:00",
+      "chat_action": "Reply in Project chat: accept ua-aec1b0000c4b  OR  decline ua-aec1b0000c4b. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-6e6c2ba79e0b",
+      "type": "capital",
+      "summary": "[LOWFLOAT] Community lo-fi / agent-ops radio stream hosting float",
+      "estimated_cost_usd": 35.0,
+      "thesis": "Spin up a legal community/lo-fi stream (Icecast/AzuraCast or free host) and invent scarce midroll + banner ad inventory. Sell prepaid sponsor slots via Stripe+USDC before or as the stream goes live — same pattern as a micro radio station th",
+      "risk": "Audience cold-start; sponsors want proof of listenership; hosting renews monthly.",
+      "next_step": "If accepted: buy hosting ≤$35, publish rate card + Stripe/USDC sponsor SKUs, chase 3 sponsors. If declined: keep selling prepaid midroll SKUs at $0 float (landi",
+      "created_at": "2026-11-24T06:34:00.056077+00:00",
+      "chat_action": "Reply in Project chat: accept ua-6e6c2ba79e0b  OR  decline ua-6e6c2ba79e0b. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-e17a9ca93099",
+      "type": "capital",
+      "summary": "[LOWFLOAT] Agent-ops niche directory custom domain for ad slots",
+      "estimated_cost_usd": 25.0,
+      "thesis": "Invent a niche directory of agent-ops tools/MCP servers and sell featured listing + banner ad slots as inventory. A custom domain (~$15–25/yr) makes the inventory feel real to sponsors vs a bare GitHub Pages path.",
+      "risk": "Directory SEO slow; empty listings hurt conversion; domain sunk if abandoned.",
+      "next_step": "If accepted: register ≤$25 domain, point to landing directory, open 5 featured slots. If declined: sell featured listings on existing GitHub Pages at $0 float.",
+      "created_at": "2026-11-24T06:34:00.903166+00:00",
+      "chat_action": "Reply in Project chat: accept ua-e17a9ca93099  OR  decline ua-e17a9ca93099. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-2b5d582c18c5",
+      "type": "capital",
+      "summary": "[LOWFLOAT] Newsletter ESP / domain float for sponsorship inventory",
+      "estimated_cost_usd": 30.0,
+      "thesis": "Ship a short weekly agent-ops brief and invent one sponsor slot per issue. Small ESP or domain float (~$30) unlocks a cleaner from-address and deliverability vs free tiers.",
+      "risk": "List growth lag; spam filters; sponsor churn if issues miss cadence.",
+      "next_step": "If accepted: provision ESP/domain ≤$30, publish rate card, sell issue #1 sponsor. If declined: sell sponsor-slot SKU first; write issue after prepaid.",
+      "created_at": "2026-11-24T06:34:01.698290+00:00",
+      "chat_action": "Reply in Project chat: accept ua-2b5d582c18c5  OR  decline ua-2b5d582c18c5. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-069ddf410e68",
+      "type": "business_build",
+      "summary": "[LOWFLOAT] Micro-SaaS prepaid access-pass product line (domain + Stripe)",
+      "estimated_cost_usd": 40.0,
+      "thesis": "Sell 7-day / 30-day access passes to a thin agent-ops micro-tool BEFORE heavy build. Prepaid cash funds the MVP. Domain + landing polish (~$40) makes the pass feel like a product, not a service hour.",
+      "risk": "Overpromise scope; refunds if pass delayed; brand distraction from live SKUs.",
+      "next_step": "If accepted: register domain ≤$40, publish pass SKUs, deliver via existing agent tooling. If declined: keep prepaid pass SKUs on current landing at $0 float.",
+      "created_at": "2026-11-24T06:34:02.461417+00:00",
+      "chat_action": "Reply in Project chat: accept ua-069ddf410e68  OR  decline ua-069ddf410e68. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-6b80101a7db2",
+      "type": "capital",
+      "summary": "[LOWFLOAT] Podcast hosting float for midroll sponsorship inventory",
+      "estimated_cost_usd": 20.0,
+      "thesis": "Record short agent-ops audio briefs and invent midroll + show-notes sponsor slots. Hosting float (~$20) unlocks RSS + analytics sponsors ask for.",
+      "risk": "Production time vs velocity; weak downloads early; host lock-in.",
+      "next_step": "If accepted: buy host ≤$20, publish episode 0 + rate card. If declined: sell prepaid midroll SKUs; host after first paid sponsor.",
+      "created_at": "2026-11-24T06:34:03.239296+00:00",
+      "chat_action": "Reply in Project chat: accept ua-6b80101a7db2  OR  decline ua-6b80101a7db2. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-8bd2dbd59e35",
+      "type": "business_build",
+      "summary": "[LOWFLOAT] Classified / events calendar ad-slot marketplace seed",
+      "estimated_cost_usd": 35.0,
+      "thesis": "Invent classified + community-event ad slots for agent builders (meetups, hiring, tool drops). Small domain/landing float (~$35) creates scarce weekly inventory sold prepaid Stripe+USDC.",
+      "risk": "Thin local/online demand; moderation overhead; empty calendar perception.",
+      "next_step": "If accepted: domain ≤$35, open 8 weekly classified slots, chase first 2 paid. If declined: list classified SKUs on existing landing only.",
+      "created_at": "2026-11-24T06:34:04.054005+00:00",
+      "chat_action": "Reply in Project chat: accept ua-8bd2dbd59e35  OR  decline ua-8bd2dbd59e35. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-e255e9db8f30",
+      "type": "capital",
+      "summary": "[LOWFLOAT] Paid discovery boost after invent-inventory SKUs live",
+      "estimated_cost_usd": 40.0,
+      "thesis": "Once directory/newsletter/stream ad SKUs exist, spend ≤$40 on allowed discovery (Moltbook boost, HN job/posting fees if applicable, or small targeted promo) to fill the first inventory slots faster than organic alone.",
+      "risk": "Boost spend with no conversion; platform fee waste; noise vs brand.",
+      "next_step": "If accepted: user caps ≤$40; agents pick one channel after SKUs live. If declined: organic desk/Moltbook/landing only.",
+      "created_at": "2026-11-24T06:34:04.832941+00:00",
+      "chat_action": "Reply in Project chat: accept ua-e255e9db8f30  OR  decline ua-e255e9db8f30. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-49938e03fdbf",
+      "type": "capital",
+      "summary": "[LOWFLOAT] Object-storage / R2 float for invent creatives CDN",
+      "estimated_cost_usd": 18.0,
+      "thesis": "Cheap Cloudflare R2 / S3-compatible object float (~$18) to host stream+directory sponsor creatives with stable URLs. Distinct from stream hosting ($35) and discovery boost ($40) — storage rail for invent ad assets agents already sell.",
+      "risk": "Storage idle if invent creatives stay text-only; monthly renewals.",
+      "next_step": "Chat accept → provision bucket + wire URLs into invent fulfillment notes.",
+      "created_at": "2026-11-24T12:06:39.602194+00:00",
+      "chat_action": "Reply in Project chat: accept ua-49938e03fdbf  OR  decline ua-49938e03fdbf. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    },
+    {
+      "id": "ua-08e20fc81241",
+      "type": "outsource",
+      "summary": "[LOWFLOAT] Contract micro graphic pack for invent ad creatives",
+      "estimated_cost_usd": 55.0,
+      "thesis": "Outsource a small reusable graphic pack (banners/thumbnails) for directory, newsletter, and stream invent slots. Distinct from POD merch fulfillment — digital assets only, still gated as contractor spend.",
+      "risk": "Asset quality variance; spend before proven invent conversion.",
+      "next_step": "Chat accept → brief contractor + drop assets into invent fulfillment kit.",
+      "created_at": "2026-11-24T12:06:40.416244+00:00",
+      "chat_action": "Reply in Project chat: accept ua-08e20fc81241  OR  decline ua-08e20fc81241. Coordinator applies via `python -m bankroll velocity user-approvals accept|decline --id …`.",
+      "new_since_last_notify": false
+    }
+  ],
+  "INVOICES_SENT": [],
+  "ACCOUNT_CHANGES": [
+    {
+      "id": "zerocap-hunt-06-final-v2",
+      "kind": "account_change",
+      "summary": "Hunt 06:00 zerocap+chase: cash $0.00; NEW conversion 2 ($22/$32); redistributed 122 (18 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack UP (no restart)",
+      "detail": {
+        "cycle": "bb-zerocap-hunt-chase-20261126-06",
+        "conversion_ids": [
+          "nav_link_label_pass_22",
+          "empty_state_copy_pass_32"
+        ],
+        "amounts": [
+          22.0,
+          32.0
+        ],
+        "urls": [
+          "https://buy.stripe.com/fZu00c6Al1s89y2gIv3843v",
+          "https://buy.stripe.com/6oU14g5whb2IbGa3VJ3843w"
+        ],
+        "new_ua_ids": []
+      },
+      "ts": "2026-11-26T06:09:35-07:00",
+      "section": "ACCOUNT_CHANGES"
+    }
+  ],
+  "OTHER": [
+    {
+      "id": "zerocap-hunt-chase-06-final-v2",
+      "summary": "Hunt 06:00: NEW conversion 2 ($22/$32); redistributed 18 conv + 25 multi + 79 invent; cash $0; NEW ua-*=0; warm_leads=0; stack UP; chase band $19–$79; no invent inflate"
+    }
+  ],
+  "counts": {
+    "open_approvals": 11,
+    "invoices_sent": 0,
+    "account_changes": 1,
+    "other": 1
+  }
+}
