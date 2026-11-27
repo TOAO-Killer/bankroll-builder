@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at_denver": "2026-11-27T15:07:59-07:00",
-  "updated_at_utc": "2026-11-27T22:07:59+00:00",
+  "updated_at_denver": "2026-11-27T16:08:28-07:00",
+  "updated_at_utc": "2026-11-27T23:08:28+00:00",
   "check_type": "manual",
   "surface": "project_chat",
   "policy": {
@@ -54,7 +54,7 @@
         ]
       }
     },
-    "probed_at_denver": "2026-11-27T15:07:59-07:00"
+    "probed_at_denver": "2026-11-27T16:08:28-07:00"
   },
   "cash_booked_usd": 0.0,
   "OPEN_APPROVALS": [
@@ -194,11 +194,11 @@
   "INVOICES_SENT": [],
   "ACCOUNT_CHANGES": [
     {
-      "id": "zerocap-hunt-15-digest-final",
+      "id": "zerocap-hunt-16-digest-final",
       "kind": "account_change",
-      "summary": "Hunt 15:00 zerocap+chase: cash $0.00; NEW conversion 0 ((none)); redistributed 134 (30 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack UP (dashboard HTTP 200)",
+      "summary": "Hunt 16:00 zerocap+chase: cash $0.00; NEW conversion 0 ((none)); redistributed 134 (30 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack UP (dashboard HTTP 200)",
       "detail": {
-        "cycle": "bb-zerocap-hunt-chase-20261127-15",
+        "cycle": "bb-zerocap-hunt-chase-20261127-16",
         "conversion_ids": [],
         "amounts": [],
         "urls": [],
@@ -206,14 +206,14 @@
         "open_approval_count": 11,
         "redistributed": 134
       },
-      "ts": "2026-11-27T15:07:58-07:00",
+      "ts": "2026-11-27T16:08:27-07:00",
       "section": "ACCOUNT_CHANGES"
     }
   ],
   "OTHER": [
     {
-      "id": "zerocap-hunt-chase-15-other",
-      "summary": "Hunt 15:00: NEW conversion 0 ((none)); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack UP; chase band $19–$79; no invent inflate; Moltbook vias={'cooldown_skip': 134}"
+      "id": "zerocap-hunt-chase-16-other",
+      "summary": "Hunt 16:00: NEW conversion 0 ((none)); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack UP; chase band $19–$79; no invent inflate; Moltbook vias={'api': 3, 'draft_file': 27, 'cooldown_skip': 104}"
     }
   ],
   "counts": {

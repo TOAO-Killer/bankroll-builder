@@ -1,6 +1,6 @@
 # BankrollBuilder notify digest
 
-_Updated: 2026-11-27T15:07:59-07:00 (America/Denver)_  
+_Updated: 2026-11-27T16:08:28-07:00 (America/Denver)_  
 _Check: `manual` · Stack: **UP** · Cash booked: $0.00_
 
 Primary operator surface: **this Project chat**. Reply accept/decline per approval id; coordinator applies CLI. Do not treat CLI as required for the user.
@@ -58,11 +58,11 @@ _None new since last notify._
 
 ## ACCOUNT_CHANGES
 
-- `zerocap-hunt-15-digest-final` [account_change] Hunt 15:00 zerocap+chase: cash $0.00; NEW conversion 0 ((none)); redistributed 134 (30 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack UP (dashboard HTTP 200)
+- `zerocap-hunt-16-digest-final` [account_change] Hunt 16:00 zerocap+chase: cash $0.00; NEW conversion 0 ((none)); redistributed 134 (30 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack UP (dashboard HTTP 200)
 
 ## OTHER
 
-- `zerocap-hunt-chase-15-other` Hunt 15:00: NEW conversion 0 ((none)); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack UP; chase band $19–$79; no invent inflate; Moltbook vias={'cooldown_skip': 134}
+- `zerocap-hunt-chase-16-other` Hunt 16:00: NEW conversion 0 ((none)); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack UP; chase band $19–$79; no invent inflate; Moltbook vias={'api': 3, 'draft_file': 27, 'cooldown_skip': 104}
 
 ---
 History: Sandbox `data/desk/ops_check_log.jsonl` · Project `internal/bb-ops-log/`
