@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at_denver": "2026-11-27T13:34:09-07:00",
-  "updated_at_utc": "2026-11-27T20:34:09+00:00",
+  "updated_at_denver": "2026-11-27T14:08:40-07:00",
+  "updated_at_utc": "2026-11-27T21:08:40+00:00",
   "check_type": "manual",
   "surface": "project_chat",
   "policy": {
@@ -54,7 +54,7 @@
         ]
       }
     },
-    "probed_at_denver": "2026-11-27T13:34:09-07:00"
+    "probed_at_denver": "2026-11-27T14:08:40-07:00"
   },
   "cash_booked_usd": 0.0,
   "OPEN_APPROVALS": [
@@ -191,63 +191,43 @@
       "new_since_last_notify": false
     }
   ],
-  "INVOICES_SENT": [
-    {
-      "id": "inv-sent-2026-11-27T20:33:33.780616+00:00-https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G",
-      "status": "sent",
-      "channel": "smtp_or_webhook",
-      "title": "BankrollBuilder — Helper text copy pass (same-day) (Stripe+USDC)",
-      "amount_usd": 62.0,
-      "url": "https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G",
-      "ts": "2026-11-27T20:33:33.780616+00:00"
-    },
-    {
-      "id": "inv-queued-2026-11-27T20:33:35.302195+00:00-https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G",
-      "status": "queued",
-      "channel": "smtp_or_webhook",
-      "title": "BankrollBuilder — Helper text copy pass (same-day) USDC settle",
-      "amount_usd": 62.0,
-      "url": "https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G",
-      "ts": "2026-11-27T20:33:35.302195+00:00"
-    }
-  ],
+  "INVOICES_SENT": [],
   "ACCOUNT_CHANGES": [
     {
-      "id": "zerocap-hunt-resume-digest-final",
+      "id": "zerocap-hunt-14-digest-final",
       "kind": "account_change",
-      "summary": "Resume hunt 13:00 zerocap+chase: cash $0.00; NEW conversion 2 ($21/$62); redistributed 131 (27 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack REPAIRED→UP (dashboard HTTP 200)",
+      "summary": "Hunt 14:00 zerocap+chase: cash $0.00; NEW conversion 2 ($64/$66); redistributed 134 (30 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack UP (dashboard HTTP 200)",
       "detail": {
-        "cycle": "bb-zerocap-hunt-chase-resume-20261127",
+        "cycle": "bb-zerocap-hunt-chase-20261127-14",
         "conversion_ids": [
-          "spinner_aria_label_pass_21",
-          "helper_text_copy_pass_62"
+          "confirm_dialog_copy_pass_64",
+          "inline_validation_copy_pass_66"
         ],
         "amounts": [
-          21.0,
-          62.0
+          64.0,
+          66.0
         ],
         "urls": [
-          "https://buy.stripe.com/9B69AM0bX2wc5hM63R3843F",
-          "https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G"
+          "https://buy.stripe.com/00w00c7EpeeU6lQ0Jx3843H",
+          "https://buy.stripe.com/eVqaEQaQB8UAh0u1NB3843I"
         ],
         "new_ua_ids": [],
         "open_approval_count": 11,
-        "redistributed": 131,
-        "stack_repaired": true
+        "redistributed": 134
       },
-      "ts": "2026-11-27T13:34:06-07:00",
+      "ts": "2026-11-27T14:08:39-07:00",
       "section": "ACCOUNT_CHANGES"
     }
   ],
   "OTHER": [
     {
-      "id": "zerocap-hunt-chase-resume-other",
-      "summary": "Resume hunt 13:00: NEW conversion 2 ($21/$62); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack repaired then UP; chase band $19–$79; no invent inflate; Moltbook 1x draft_file ($21) + 1x api ($62); $29 skipped (invent amt)"
+      "id": "zerocap-hunt-chase-14-other",
+      "summary": "Hunt 14:00: NEW conversion 2 ($64/$66); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack UP; chase band $19–$79; no invent inflate; Moltbook vias={'api': 1, 'draft_file': 1, 'cooldown_skip': 134}"
     }
   ],
   "counts": {
     "open_approvals": 11,
-    "invoices_sent": 2,
+    "invoices_sent": 0,
     "account_changes": 1,
     "other": 1
   }

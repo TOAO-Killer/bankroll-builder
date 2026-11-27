@@ -1,0 +1,188 @@
+{
+  "ts": "2026-11-27T14:01:34.165787-07:00",
+  "cycle": "bb-opp-light-20261127-14",
+  "mode": "light_opp_conversion_first",
+  "policy": {
+    "min_capital_proposal_likelihood_pct": 60.0,
+    "cash_deadline_days": 10.0,
+    "prefer_conversion_over_invent": true,
+    "stop_proposing_below_bar": true,
+    "prefer_zero_cap": true,
+    "conversion_price_band_usd_min": 19.0,
+    "conversion_price_band_usd_max": 79.0
+  },
+  "cash": {
+    "stripe_available_usd": 0.0,
+    "stripe_pending_usd": 0.0,
+    "verified_cash_usd": 0.0,
+    "poll_sessions": 0,
+    "poll_intents": 0,
+    "poll_booked_usd": 0,
+    "usdc_receipts_logged": 0,
+    "payment_intents": 0,
+    "charges": 0,
+    "checkout_sessions": 0,
+    "gap_usd": 1999.0,
+    "spent_float_usd": 0.0
+  },
+  "created": [
+    {
+      "ok": true,
+      "url": "https://buy.stripe.com/00w00c7EpeeU6lQ0Jx3843H",
+      "plink_id": "plink_1UgWH22Q1JQTu61pWKY1W2ua",
+      "product_id": "prod_Vhw9uqinnh0jqI",
+      "price_id": "price_1UgWH22Q1JQTu61pnMOEA3P9",
+      "amount_usd": 64.0,
+      "offer_id": "confirm_dialog_copy_pass_64",
+      "name": "Confirm dialog copy pass (same-day)",
+      "livemode": true,
+      "source": "conversion_service",
+      "why": "Free mid-gap $64 in $19\u2013$79 band; concrete confirm-dialog copy agents can ship same-day.",
+      "sku_kind": "conversion_service",
+      "lane": "cash_push",
+      "turnaround": "same-day after payment clears",
+      "desc": "Agent-fulfilled: rewrite up to 4 confirm/cancel dialog titles + body lines (titles \u226448 chars, bodies \u2264120) for one destructive or purchase confirm flow, plus a one-line rationale table. Markdown same-day after payment clears. Fills mid-gap between $62 helper-text copy and $68 multi-rail status one-pager."
+    },
+    {
+      "ok": true,
+      "url": "https://buy.stripe.com/eVqaEQaQB8UAh0u1NB3843I",
+      "plink_id": "plink_1UgWH32Q1JQTu61peoYbxNDC",
+      "product_id": "prod_Vhw9Vp9GrOxqk6",
+      "price_id": "price_1UgWH32Q1JQTu61pFyKrjw9d",
+      "amount_usd": 66.0,
+      "offer_id": "inline_validation_copy_pass_66",
+      "name": "Inline validation copy pass (same-day)",
+      "livemode": true,
+      "source": "conversion_service",
+      "why": "Free mid-gap $66; concrete validation-copy deliverable inside conversion chase band.",
+      "sku_kind": "conversion_service",
+      "lane": "cash_push",
+      "turnaround": "same-day after payment clears",
+      "desc": "Agent-fulfilled: rewrite up to 8 inline field validation / error messages (\u226490 chars each) for one form or checkout surface, plus a one-line rationale table. Markdown same-day after payment. Fills mid-gap between $64 confirm-dialog copy and $68 multi-rail status one-pager."
+    }
+  ],
+  "distributed_new": [
+    {
+      "offer_id": "confirm_dialog_copy_pass_64",
+      "name": "Confirm dialog copy pass (same-day)",
+      "amount_usd": 64.0,
+      "url": "https://buy.stripe.com/00w00c7EpeeU6lQ0Jx3843H",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "posted": [
+        "landing_pages",
+        "desk_board",
+        "moltbook"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "api",
+        "post_id": "4dd7a85c-11fa-472a-b3b0-8d905bb71f24",
+        "post_url": "https://www.moltbook.com/post/4dd7a85c-11fa-472a-b3b0-8d905bb71f24",
+        "verified": true
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "inline_validation_copy_pass_66",
+      "name": "Inline validation copy pass (same-day)",
+      "amount_usd": 66.0,
+      "url": "https://buy.stripe.com/eVqaEQaQB8UAh0u1NB3843I",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "posted": [
+        "landing_pages",
+        "desk_board",
+        "moltbook"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "You can only post once every 2.5 minutes",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    }
+  ],
+  "conversion_redistributed_share": [
+    "landing_cta_rewrite_19",
+    "loading_state_copy_pass_20",
+    "spinner_aria_label_pass_21",
+    "nav_link_label_pass_22",
+    "hover_hint_copy_pass_23",
+    "hero_subhead_tighten_24",
+    "alert_banner_copy_pass_25",
+    "meta_description_pass_26",
+    "settle_retry_checklist_27",
+    "faq_answer_rewrite_28",
+    "button_label_pass_30",
+    "checkbox_consent_copy_pass_31",
+    "empty_state_copy_pass_32",
+    "form_placeholder_pass_33",
+    "listing_copy_pack_34",
+    "footer_nav_pass_36",
+    "offer_blurb_tighten_38",
+    "desk_board_headline_pass_42",
+    "cta_microcopy_tighten_44",
+    "outbound_callout_rewrite_46",
+    "error_state_copy_pass_48",
+    "thankyou_cta_pass_50",
+    "success_page_copy_pass_52",
+    "checkout_friction_mini_audit_54",
+    "receipt_email_plain_pass_56",
+    "payment_link_copy_pass_58",
+    "helper_text_copy_pass_62",
+    "multi_rail_status_onepager_68",
+    "confirm_dialog_copy_pass_64",
+    "inline_validation_copy_pass_66"
+  ],
+  "open_approval_count": 11,
+  "gates_left_pending": [
+    "ua-67781ddf97f9",
+    "ua-aec1b0000c4b",
+    "ua-6e6c2ba79e0b",
+    "ua-e17a9ca93099",
+    "ua-2b5d582c18c5",
+    "ua-069ddf410e68",
+    "ua-6b80101a7db2",
+    "ua-8bd2dbd59e35",
+    "ua-e255e9db8f30",
+    "ua-49938e03fdbf",
+    "ua-08e20fc81241"
+  ],
+  "new_ua_ids": [],
+  "stack": {
+    "velocity_pid": 8316,
+    "dashboard_8080_pid": 5012,
+    "stripe_listen_pid": 8204,
+    "stripe_watchdog_pid": 4956,
+    "dashboard_http": 200,
+    "dashboard_ok": true,
+    "left_running": true,
+    "fixes_applied": [],
+    "host": "DESKTOP-N5P6TAA"
+  },
+  "note": "Light opp inside Hunt 14:00. NEW conversion/service at free $64/$66 only. No invent inflate. No NEW ua-*. Existing 11 PENDING untouched. Rails Stripe+USDC only."
+}

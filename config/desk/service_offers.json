@@ -5,7 +5,7 @@
     "ethereum",
     "base"
   ],
-  "reason": "Resume hunt 13:00: conversion chase $19-$79; mid-gap $21/$62 added; no $170+ invent inflate; NEW ua-*=0. PayPal not wired \u2014 skipped.",
+  "reason": "Hunt 14:00: conversion-tier chase $19-$79 first; mid-gap $64/$66 added if free; no $170+ invent inflate; NEW ua-*=0. PayPal not wired \u2014 skipped.",
   "paypal_fee_rate": 0,
   "paypal_fee_fixed_usd": 0,
   "machine_usd": 1999,
@@ -2679,6 +2679,40 @@
         "usdc"
       ],
       "cycle": "bb-zerocap-hunt-chase-resume-20261127",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "confirm_dialog_copy_pass_64",
+      "name": "Confirm dialog copy pass (same-day)",
+      "price_usd": 64.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite up to 4 confirm/cancel dialog titles + body lines (titles \u226448 chars, bodies \u2264120) for one destructive or purchase confirm flow, plus a one-line rationale table. Markdown same-day after payment clears. Fills mid-gap between $62 helper-text copy and $68 multi-rail status one-pager.",
+      "stripe_url": "https://buy.stripe.com/00w00c7EpeeU6lQ0Jx3843H",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261127-14",
+      "invent_inventory": false,
+      "conversion_tier": true,
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "id": "inline_validation_copy_pass_66",
+      "name": "Inline validation copy pass (same-day)",
+      "price_usd": 66.0,
+      "turnaround": "same-day after payment clears",
+      "scope": "Agent-fulfilled: rewrite up to 8 inline field validation / error messages (\u226490 chars each) for one form or checkout surface, plus a one-line rationale table. Markdown same-day after payment. Fills mid-gap between $64 confirm-dialog copy and $68 multi-rail status one-pager.",
+      "stripe_url": "https://buy.stripe.com/eVqaEQaQB8UAh0u1NB3843I",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "cycle": "bb-zerocap-hunt-chase-20261127-14",
       "invent_inventory": false,
       "conversion_tier": true,
       "lane": "cash_push",

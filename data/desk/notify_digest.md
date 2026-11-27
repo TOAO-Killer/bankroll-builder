@@ -1,6 +1,6 @@
 # BankrollBuilder notify digest
 
-_Updated: 2026-11-27T13:34:09-07:00 (America/Denver)_  
+_Updated: 2026-11-27T14:08:40-07:00 (America/Denver)_  
 _Check: `manual` · Stack: **UP** · Cash booked: $0.00_
 
 Primary operator surface: **this Project chat**. Reply accept/decline per approval id; coordinator applies CLI. Do not treat CLI as required for the user.
@@ -54,18 +54,15 @@ Primary operator surface: **this Project chat**. Reply accept/decline per approv
 
 ## INVOICES_SENT
 
-- `inv-sent-2026-11-27T20:33:33.780616+00:00-https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G` [sent/smtp_or_webhook] $62.0 — BankrollBuilder — Helper text copy pass (same-day) (Stripe+USDC)
-  - https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G
-- `inv-queued-2026-11-27T20:33:35.302195+00:00-https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G` [queued/smtp_or_webhook] $62.0 — BankrollBuilder — Helper text copy pass (same-day) USDC settle
-  - https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G
+_None new since last notify._
 
 ## ACCOUNT_CHANGES
 
-- `zerocap-hunt-resume-digest-final` [account_change] Resume hunt 13:00 zerocap+chase: cash $0.00; NEW conversion 2 ($21/$62); redistributed 131 (27 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack REPAIRED→UP (dashboard HTTP 200)
+- `zerocap-hunt-14-digest-final` [account_change] Hunt 14:00 zerocap+chase: cash $0.00; NEW conversion 2 ($64/$66); redistributed 134 (30 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack UP (dashboard HTTP 200)
 
 ## OTHER
 
-- `zerocap-hunt-chase-resume-other` Resume hunt 13:00: NEW conversion 2 ($21/$62); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack repaired then UP; chase band $19–$79; no invent inflate; Moltbook 1x draft_file ($21) + 1x api ($62); $29 skipped (invent amt)
+- `zerocap-hunt-chase-14-other` Hunt 14:00: NEW conversion 2 ($64/$66); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack UP; chase band $19–$79; no invent inflate; Moltbook vias={'api': 1, 'draft_file': 1, 'cooldown_skip': 134}
 
 ---
 History: Sandbox `data/desk/ops_check_log.jsonl` · Project `internal/bb-ops-log/`
