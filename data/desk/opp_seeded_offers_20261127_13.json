@@ -1,0 +1,140 @@
+{
+  "ts": "2026-11-27T13:26:03.353179-07:00",
+  "cycle": "bb-opp-light-20261127-13",
+  "mode": "light_opp_conversion_first",
+  "policy": {
+    "min_capital_proposal_likelihood_pct": 60.0,
+    "cash_deadline_days": 10.0,
+    "prefer_conversion_over_invent": true,
+    "stop_proposing_below_bar": true,
+    "prefer_zero_cap": true,
+    "conversion_price_band_usd_min": 19.0,
+    "conversion_price_band_usd_max": 79.0
+  },
+  "cash": {
+    "stripe_available_usd": 0.0,
+    "stripe_pending_usd": 0.0,
+    "verified_cash_usd": 0.0,
+    "poll_sessions": 0,
+    "poll_intents": 0,
+    "poll_booked_usd": 0,
+    "usdc_receipts_logged": 0,
+    "payment_intents": 0,
+    "charges": 0,
+    "checkout_sessions": 0,
+    "gap_usd": 1999.0,
+    "spent_float_usd": 0.0
+  },
+  "created": [
+    {
+      "ok": true,
+      "url": "https://buy.stripe.com/9B69AM0bX2wc5hM63R3843F",
+      "plink_id": "plink_1UgVik2Q1JQTu61pQ0S2iAwr",
+      "product_id": "prod_VhvZrNDjbE97W5",
+      "price_id": "price_1UgVij2Q1JQTu61pPs2e0hUA",
+      "amount_usd": 21.0,
+      "offer_id": "spinner_aria_label_pass_21",
+      "name": "Spinner ARIA label pass (same-day)",
+      "livemode": true,
+      "source": "conversion_service",
+      "why": "Free mid-gap $21 near hero; tiny same-day a11y/spinner-label deliverable agents can ship.",
+      "sku_kind": "conversion_service",
+      "lane": "cash_push",
+      "turnaround": "same-day after payment clears",
+      "desc": "Agent-fulfilled: rewrite up to 5 spinner/progress ARIA labels + visually-hidden status phrases (\u226440 chars each) for one checkout or form flow, plus a one-line rationale table. Markdown same-day after payment clears. Fills mid-gap between $20 loading-state copy and $22 nav link label."
+    }
+  ],
+  "distributed_new": [
+    {
+      "offer_id": "spinner_aria_label_pass_21",
+      "name": "Spinner ARIA label pass (same-day)",
+      "amount_usd": 21.0,
+      "url": "https://buy.stripe.com/9B69AM0bX2wc5hM63R3843F",
+      "rails": [
+        "stripe",
+        "usdc"
+      ],
+      "posted": [
+        "landing_pages",
+        "desk_board",
+        "moltbook"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "You can only post once every 2.5 minutes",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    }
+  ],
+  "conversion_redistributed_share": [
+    "landing_cta_rewrite_19",
+    "loading_state_copy_pass_20",
+    "nav_link_label_pass_22",
+    "hover_hint_copy_pass_23",
+    "hero_subhead_tighten_24",
+    "alert_banner_copy_pass_25",
+    "meta_description_pass_26",
+    "settle_retry_checklist_27",
+    "faq_answer_rewrite_28",
+    "button_label_pass_30",
+    "checkbox_consent_copy_pass_31",
+    "empty_state_copy_pass_32",
+    "form_placeholder_pass_33",
+    "listing_copy_pack_34",
+    "footer_nav_pass_36",
+    "offer_blurb_tighten_38",
+    "desk_board_headline_pass_42",
+    "cta_microcopy_tighten_44",
+    "outbound_callout_rewrite_46",
+    "error_state_copy_pass_48",
+    "thankyou_cta_pass_50",
+    "success_page_copy_pass_52",
+    "checkout_friction_mini_audit_54",
+    "receipt_email_plain_pass_56",
+    "payment_link_copy_pass_58",
+    "multi_rail_status_onepager_68",
+    "spinner_aria_label_pass_21"
+  ],
+  "open_approval_count": 11,
+  "gates_left_pending": [
+    "ua-67781ddf97f9",
+    "ua-aec1b0000c4b",
+    "ua-6e6c2ba79e0b",
+    "ua-e17a9ca93099",
+    "ua-2b5d582c18c5",
+    "ua-069ddf410e68",
+    "ua-6b80101a7db2",
+    "ua-8bd2dbd59e35",
+    "ua-e255e9db8f30",
+    "ua-49938e03fdbf",
+    "ua-08e20fc81241"
+  ],
+  "new_ua_ids": [],
+  "stack": {
+    "velocity_pid": 8316,
+    "dashboard_8080_pid": 5012,
+    "stripe_listen_pid": 8204,
+    "stripe_watchdog_pid": 4956,
+    "dashboard_http": 200,
+    "dashboard_ok": true,
+    "left_running": true,
+    "fixes_applied": [
+      "repaired_down_stack_20261127: start_capital_dashboard.bat + start_stripe_listen_watchdog.bat + start_velocity.bat",
+      "restored bankroll/__main__.py + scripts/stripe_listen_watchdog.py wrappers for .pyc bootstrap"
+    ],
+    "host": "DESKTOP-N5P6TAA"
+  },
+  "note": "Light opp inside resume Hunt 13:00. NEW conversion/service at free $21/$29 only. No invent inflate. No NEW ua-*. Existing 11 PENDING untouched. Rails Stripe+USDC only."
+}
