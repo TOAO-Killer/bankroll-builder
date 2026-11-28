@@ -1,7 +1,7 @@
 {
   "offers": [
     {
-      "ts": "2026-11-28T20:08:11.751716+00:00",
+      "ts": "2026-11-28T21:08:06.768096+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops stream outro chip (24-hour) USDC settle",
       "url": "https://buy.stripe.com/9B63cof6Rc6MaC6ak73843e",
       "amount_usd": 189.0,
@@ -9,7 +9,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "stream_outro_chip_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -29,7 +29,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/9B63cof6Rc6MaC6ak73843e OR 189.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -44,7 +44,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:08:08.722445+00:00",
+      "ts": "2026-11-28T21:08:03.858462+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops directory empty-state chip (48-hour) USDC settle",
       "url": "https://buy.stripe.com/eVqbIUcYJ3Ag25A8bZ3843d",
       "amount_usd": 188.0,
@@ -52,7 +52,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "directory_empty_chip_48h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -72,7 +72,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/eVqbIUcYJ3Ag25A8bZ3843d OR 188.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -87,7 +87,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:08:05.731515+00:00",
+      "ts": "2026-11-28T21:08:00.966999+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops classified last-call bump (24-hour) USDC settle",
       "url": "https://buy.stripe.com/aFa00c4sd1s839E8bZ3843c",
       "amount_usd": 187.0,
@@ -95,7 +95,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "classified_last_call_bump_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -115,7 +115,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/aFa00c4sd1s839E8bZ3843c OR 187.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -130,7 +130,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:08:02.777788+00:00",
+      "ts": "2026-11-28T21:07:57.983390+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops stream stinger chip (24-hour) USDC settle",
       "url": "https://buy.stripe.com/14AcMYe2N7QweSm3VJ3843b",
       "amount_usd": 186.0,
@@ -138,7 +138,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "stream_stinger_chip_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -158,7 +158,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/14AcMYe2N7QweSm3VJ3843b OR 186.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -173,7 +173,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:59.806162+00:00",
+      "ts": "2026-11-28T21:07:54.994461+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops directory disabled-state chip (48-hour) USDC settle",
       "url": "https://buy.stripe.com/dRm5kwe2N9YE9y263R3843a",
       "amount_usd": 184.0,
@@ -181,7 +181,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "directory_disabled_chip_48h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -201,7 +201,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/dRm5kwe2N9YE9y263R3843a OR 184.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -216,7 +216,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:56.847067+00:00",
+      "ts": "2026-11-28T21:07:51.940289+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops classified closeout bump (24-hour) USDC settle",
       "url": "https://buy.stripe.com/dRm8wIcYJc6M39E9g338439",
       "amount_usd": 183.0,
@@ -224,7 +224,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "classified_closeout_bump_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -244,7 +244,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/dRm8wIcYJc6M39E9g338439 OR 183.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -259,7 +259,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:53.928106+00:00",
+      "ts": "2026-11-28T21:07:49.007938+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops newsletter eyebrow callout (1 issue) USDC settle",
       "url": "https://buy.stripe.com/7sY4gs6Alc6M9y2ak738436",
       "amount_usd": 180.0,
@@ -267,7 +267,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "newsletter_eyebrow_callout_1issue",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -287,7 +287,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/7sY4gs6Alc6M9y2ak738436 OR 180.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -302,7 +302,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:51.004615+00:00",
+      "ts": "2026-11-28T21:07:46.095258+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops directory pressed-state chip (48-hour) USDC settle",
       "url": "https://buy.stripe.com/28E9AM0bXfiY39E0Jx38435",
       "amount_usd": 179.0,
@@ -310,7 +310,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "directory_pressed_chip_48h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -330,7 +330,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/28E9AM0bXfiY39E0Jx38435 OR 179.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -345,7 +345,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:48.065178+00:00",
+      "ts": "2026-11-28T21:07:43.096935+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops classified wrap-up bump (24-hour) USDC settle",
       "url": "https://buy.stripe.com/9B628k4sd3AgdOi2RF38434",
       "amount_usd": 178.0,
@@ -353,7 +353,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "classified_wrap_up_bump_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -373,7 +373,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/9B628k4sd3AgdOi2RF38434 OR 178.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -388,7 +388,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:45.141433+00:00",
+      "ts": "2026-11-28T21:07:40.151977+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops stream bumper chip (24-hour) USDC settle",
       "url": "https://buy.stripe.com/eVq9AMbUF4Ek8tY1NB38433",
       "amount_usd": 177.0,
@@ -396,7 +396,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "stream_bumper_chip_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -416,7 +416,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/eVq9AMbUF4Ek8tY1NB38433 OR 177.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -431,7 +431,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:42.280242+00:00",
+      "ts": "2026-11-28T21:07:37.191651+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops directory selected-state chip (48-hour) USDC settle",
       "url": "https://buy.stripe.com/4gM4gs0bXb2I7pU3VJ38432",
       "amount_usd": 176.0,
@@ -439,7 +439,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "directory_selected_chip_48h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -459,7 +459,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/4gM4gs0bXb2I7pU3VJ38432 OR 176.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -474,7 +474,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:39.433829+00:00",
+      "ts": "2026-11-28T21:07:34.184987+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops classified late-prime bump (24-hour) USDC settle",
       "url": "https://buy.stripe.com/3cIfZae2N4EkcKe2RF38431",
       "amount_usd": 174.0,
@@ -482,7 +482,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "classified_late_prime_bump_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -502,7 +502,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/3cIfZae2N4EkcKe2RF38431 OR 174.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -517,7 +517,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:36.558674+00:00",
+      "ts": "2026-11-28T21:07:31.126569+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops stream preroll chip (24-hour) USDC settle",
       "url": "https://buy.stripe.com/8x28wI5wh9YEbGadwj38430",
       "amount_usd": 173.0,
@@ -525,7 +525,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "stream_preroll_chip_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -545,7 +545,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/8x28wI5wh9YEbGadwj38430 OR 173.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -560,7 +560,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:33.597814+00:00",
+      "ts": "2026-11-28T21:07:28.189789+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops directory active-state chip (48-hour) USDC settle",
       "url": "https://buy.stripe.com/6oU6oAcYJ8UA11wdwj3842Z",
       "amount_usd": 172.0,
@@ -568,7 +568,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "directory_active_state_chip_48h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -588,7 +588,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/6oU6oAcYJ8UA11wdwj3842Z OR 172.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -603,7 +603,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:30.737407+00:00",
+      "ts": "2026-11-28T21:07:25.212660+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops classified dinner-hour bump (24-hour) USDC settle",
       "url": "https://buy.stripe.com/aFa5kw7EpdaQ8tYak73842Y",
       "amount_usd": 171.0,
@@ -611,7 +611,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "classified_dinner_hour_bump_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -631,7 +631,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/aFa5kw7EpdaQ8tYak73842Y OR 171.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -646,7 +646,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:27.873820+00:00",
+      "ts": "2026-11-28T21:07:22.304276+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops directory focus-ring chip (48-hour) USDC settle",
       "url": "https://buy.stripe.com/5kQ00c2k5c6M6lQ77V3842X",
       "amount_usd": 169.0,
@@ -654,7 +654,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "directory_focus_ring_chip_48h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -674,7 +674,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/5kQ00c2k5c6M6lQ77V3842X OR 169.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -689,7 +689,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:24.909845+00:00",
+      "ts": "2026-11-28T21:07:19.278648+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops classified prime-time bump (24-hour) USDC settle",
       "url": "https://buy.stripe.com/eVqaEQ7Epgn29y2ak73842W",
       "amount_usd": 168.0,
@@ -697,7 +697,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "classified_prime_time_bump_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -717,7 +717,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/eVqaEQ7Epgn29y2ak73842W OR 168.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -732,7 +732,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:21.893580+00:00",
+      "ts": "2026-11-28T21:07:16.287789+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops directory hover chip (48-hour) USDC settle",
       "url": "https://buy.stripe.com/5kQeV68ItfiY6lQ0Jx3842T",
       "amount_usd": 164.0,
@@ -740,7 +740,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "directory_hover_chip_48h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -760,7 +760,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/5kQeV68ItfiY6lQ0Jx3842T OR 164.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -775,7 +775,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:18.932738+00:00",
+      "ts": "2026-11-28T21:07:13.303462+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops classified power-hour bump (24-hour) USDC settle",
       "url": "https://buy.stripe.com/6oUfZabUF2wcbGa0Jx3842S",
       "amount_usd": 163.0,
@@ -783,7 +783,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "classified_power_hour_bump_24h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -803,7 +803,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/6oUfZabUF2wcbGa0Jx3842S OR 163.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -818,7 +818,7 @@
       "note": "Agent-distributed multi-rail offer. Do not invent customers. Cash books only after Stripe paid / USDC settle --confirm / PayPal API confirm."
     },
     {
-      "ts": "2026-11-28T20:07:15.962172+00:00",
+      "ts": "2026-11-28T21:07:10.407804+00:00",
       "title": "BankrollBuilder \u2014 Agent-ops directory preview chip (48-hour) USDC settle",
       "url": "https://buy.stripe.com/dRmfZa2k58UA6lQ0Jx3842R",
       "amount_usd": 162.0,
@@ -826,7 +826,7 @@
       "landing_url": "https://toao-killer.github.io/bankroll-builder/",
       "meta": {
         "offer_id": "directory_preview_chip_48h",
-        "cycle": "bb-combo-20261128-13",
+        "cycle": "bb-zerocap-hunt-chase-20261128-14",
         "settlement": "multi_rail_stripe_usdc",
         "rails": [
           "stripe_card",
@@ -846,7 +846,7 @@
           "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
         },
         "human_share_required": false,
-        "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+        "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
         "redistribute": true,
         "harder_buyer_chase": true,
         "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/dRmfZa2k58UA6lQ0Jx3842R OR 162.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",
@@ -862,7 +862,7 @@
     }
   ],
   "latest": {
-    "ts": "2026-11-28T20:08:11.751716+00:00",
+    "ts": "2026-11-28T21:08:06.768096+00:00",
     "title": "BankrollBuilder \u2014 Agent-ops stream outro chip (24-hour) USDC settle",
     "url": "https://buy.stripe.com/9B63cof6Rc6MaC6ak73843e",
     "amount_usd": 189.0,
@@ -870,7 +870,7 @@
     "landing_url": "https://toao-killer.github.io/bankroll-builder/",
     "meta": {
       "offer_id": "stream_outro_chip_24h",
-      "cycle": "bb-combo-20261128-13",
+      "cycle": "bb-zerocap-hunt-chase-20261128-14",
       "settlement": "multi_rail_stripe_usdc",
       "rails": [
         "stripe_card",
@@ -890,7 +890,7 @@
         "receive_address": "0xa38844Df998769d9f9e014186265C99095D19A3B"
       },
       "human_share_required": false,
-      "why_converts": "13:00 combo redistrib \u2014 conversion prioritized",
+      "why_converts": "00:00 hunt redistrib \u2014 conversion prioritized",
       "redistribute": true,
       "harder_buyer_chase": true,
       "blurb_extra": "Pay either way: Stripe card/Link https://buy.stripe.com/9B63cof6Rc6MaC6ak73843e OR 189.00 USDC on ethereum, base to 0xa38844Df998769d9f9e014186265C99095D19A3B.",

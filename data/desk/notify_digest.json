@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at_denver": "2026-11-28T13:08:38-07:00",
-  "updated_at_utc": "2026-11-28T20:08:38+00:00",
+  "updated_at_denver": "2026-11-28T14:08:24-07:00",
+  "updated_at_utc": "2026-11-28T21:08:24+00:00",
   "check_type": "manual",
   "surface": "project_chat",
   "policy": {
@@ -54,7 +54,7 @@
         ]
       }
     },
-    "probed_at_denver": "2026-11-28T13:08:38-07:00"
+    "probed_at_denver": "2026-11-28T14:08:24-07:00"
   },
   "cash_booked_usd": 0.0,
   "OPEN_APPROVALS": [
@@ -192,34 +192,12 @@
     }
   ],
   "INVOICES_SENT": [],
-  "ACCOUNT_CHANGES": [
-    {
-      "id": "combo-13-digest-final",
-      "kind": "account_change",
-      "summary": "Combo 13:00 opp+hunt: cash $0.00; NEW conversion 0 ((none)); redistributed 134 (30 conv + 25 multi + 79 invent); float=$0; open_approvals=11; stack UP (dashboard HTTP 200)",
-      "detail": {
-        "cycle": "bb-combo-20261128-13",
-        "conversion_ids": [],
-        "amounts": [],
-        "urls": [],
-        "new_ua_ids": [],
-        "open_approval_count": 11,
-        "redistributed": 134
-      },
-      "ts": "2026-11-28T13:08:37-07:00",
-      "section": "ACCOUNT_CHANGES"
-    }
-  ],
-  "OTHER": [
-    {
-      "id": "combo-13-other",
-      "summary": "Combo 13:00: NEW conversion 0 ((none)); redistributed conversion-first; cash $0; NEW ua-*=0; warm_leads=0; stack UP; chase band $19–$79; no invent inflate; Moltbook vias={'api': 5, 'draft_file': 25, 'cooldown_skip': 104}"
-    }
-  ],
+  "ACCOUNT_CHANGES": [],
+  "OTHER": [],
   "counts": {
     "open_approvals": 11,
     "invoices_sent": 0,
-    "account_changes": 1,
-    "other": 1
+    "account_changes": 0,
+    "other": 0
   }
 }
