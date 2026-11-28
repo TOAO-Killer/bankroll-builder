@@ -1,0 +1,4553 @@
+{
+  "ts": "2026-11-28T04:00:47.303733-07:00",
+  "cycle": "bb-zerocap-hunt-chase-20261128-04",
+  "mode": "zerocap_hunt_buyer_chase_00",
+  "policy": {
+    "min_capital_proposal_likelihood_pct": 60.0,
+    "cash_deadline_days": 10.0,
+    "prefer_conversion_over_invent": true,
+    "stop_proposing_below_bar": true,
+    "prefer_zero_cap": true,
+    "conversion_price_band_usd_min": 19.0,
+    "conversion_price_band_usd_max": 79.0
+  },
+  "cash": {
+    "stripe_available_usd": 0.0,
+    "stripe_pending_usd": 0.0,
+    "verified_cash_usd": 0.0,
+    "poll_sessions": 0,
+    "poll_intents": 0,
+    "poll_booked_usd": 0,
+    "usdc_receipts_logged": 0,
+    "payment_intents": 0,
+    "charges": 0,
+    "checkout_sessions": 0,
+    "gap_usd": 1999.0,
+    "spent_float_usd": 0.0
+  },
+  "landing": {
+    "ok": true,
+    "status": 200,
+    "url": "https://toao-killer.github.io/bankroll-builder/",
+    "has_stripe": true,
+    "has_usdc": true,
+    "has_19": false
+  },
+  "landing_patch": {
+    "ok": true,
+    "unchanged": true,
+    "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\website\\index.html",
+    "primary_url": "https://buy.stripe.com/bJe4gs3o9gn2h0u0Jx3843f",
+    "amount_usd": 19.0,
+    "name": "Landing CTA rewrite pack (same-day)"
+  },
+  "stack": {
+    "velocity_pid": 8316,
+    "dashboard_8080_pid": 5012,
+    "stripe_listen_pid": 8204,
+    "stripe_watchdog_pid": 4956,
+    "dashboard_http": 200,
+    "dashboard_ok": true,
+    "left_running": true,
+    "fixes_applied": [],
+    "host": "DESKTOP-N5P6TAA"
+  },
+  "rails_available": {
+    "stripe": true,
+    "usdc": true,
+    "paypal": false,
+    "paypal_reason": "PAYPAL_EMAIL/CLIENT unset"
+  },
+  "created": [],
+  "distributed_new": [],
+  "conversion_redistributed": [
+    "landing_cta_rewrite_19",
+    "loading_state_copy_pass_20",
+    "spinner_aria_label_pass_21",
+    "nav_link_label_pass_22",
+    "hover_hint_copy_pass_23",
+    "hero_subhead_tighten_24",
+    "alert_banner_copy_pass_25",
+    "meta_description_pass_26",
+    "settle_retry_checklist_27",
+    "faq_answer_rewrite_28",
+    "button_label_pass_30",
+    "checkbox_consent_copy_pass_31",
+    "empty_state_copy_pass_32",
+    "form_placeholder_pass_33",
+    "listing_copy_pack_34",
+    "footer_nav_pass_36",
+    "offer_blurb_tighten_38",
+    "desk_board_headline_pass_42",
+    "cta_microcopy_tighten_44",
+    "outbound_callout_rewrite_46",
+    "error_state_copy_pass_48",
+    "thankyou_cta_pass_50",
+    "success_page_copy_pass_52",
+    "checkout_friction_mini_audit_54",
+    "receipt_email_plain_pass_56",
+    "payment_link_copy_pass_58",
+    "helper_text_copy_pass_62",
+    "confirm_dialog_copy_pass_64",
+    "inline_validation_copy_pass_66",
+    "multi_rail_status_onepager_68"
+  ],
+  "invent_redistributed": [
+    "hiring_spotlight_48h",
+    "classified_flash_bump_24h",
+    "classified_events_ad_slot_1w",
+    "classified_morning_bump_24h",
+    "stream_banner_sponsor_7d",
+    "directory_weekend_spotlight_48h",
+    "newsletter_midissue_callout_1issue",
+    "stream_weekend_takeover_48h",
+    "newsletter_footer_cta_1issue",
+    "directory_midweek_spotlight_48h",
+    "classified_midnight_bump_24h",
+    "classified_evening_bump_24h",
+    "classified_twilight_bump_24h",
+    "classified_late_day_bump_24h",
+    "newsletter_sponsor_strip_1issue",
+    "classified_afternoon_bump_24h",
+    "stream_sidebar_mention_7d",
+    "newsletter_ps_bump_1issue",
+    "stream_lower_third_mention_24h",
+    "directory_sidebar_chip_48h",
+    "stream_midroll_sticker_24h",
+    "stream_midroll_chip_24h",
+    "directory_logo_tile_48h",
+    "directory_tool_chip_48h",
+    "mcp_tools_featured_pack_7d",
+    "directory_homepage_pin_48h",
+    "directory_footer_chip_48h",
+    "directory_nav_chip_48h",
+    "directory_header_chip_48h",
+    "directory_rail_chip_48h",
+    "directory_subnav_chip_48h",
+    "classified_after_hours_bump_24h",
+    "classified_owl_shift_bump_24h",
+    "directory_breadcrumb_chip_48h",
+    "classified_graveyard_bump_24h",
+    "directory_filter_chip_48h",
+    "classified_pre_dawn_bump_24h",
+    "directory_results_chip_48h",
+    "classified_blue_hour_bump_24h",
+    "directory_facets_chip_48h",
+    "classified_civil_twilight_bump_24h",
+    "directory_sort_chip_48h",
+    "classified_golden_hour_bump_24h",
+    "directory_pager_chip_48h",
+    "classified_sunrise_bump_24h",
+    "directory_tab_chip_48h",
+    "classified_commute_bump_24h",
+    "directory_query_chip_48h",
+    "classified_rush_hour_bump_24h",
+    "directory_search_chip_48h",
+    "classified_midday_peak_bump_24h",
+    "directory_suggest_chip_48h",
+    "classified_lunch_window_bump_24h",
+    "directory_autocomplete_chip_48h",
+    "classified_siesta_bump_24h",
+    "directory_typeahead_chip_48h",
+    "classified_tea_time_bump_24h",
+    "directory_snippet_chip_48h",
+    "classified_happy_hour_bump_24h",
+    "directory_preview_chip_48h",
+    "classified_power_hour_bump_24h",
+    "directory_hover_chip_48h",
+    "classified_prime_time_bump_24h",
+    "directory_focus_ring_chip_48h",
+    "classified_dinner_hour_bump_24h",
+    "directory_active_state_chip_48h",
+    "stream_preroll_chip_24h",
+    "classified_late_prime_bump_24h",
+    "directory_selected_chip_48h",
+    "stream_bumper_chip_24h",
+    "classified_wrap_up_bump_24h",
+    "directory_pressed_chip_48h",
+    "newsletter_eyebrow_callout_1issue",
+    "classified_closeout_bump_24h",
+    "directory_disabled_chip_48h",
+    "stream_stinger_chip_24h",
+    "classified_last_call_bump_24h",
+    "directory_empty_chip_48h",
+    "stream_outro_chip_24h"
+  ],
+  "multi_rail_redistributed": [
+    "wallet_chain_reconcile_95",
+    "cors_cookie_auth_debug_brief",
+    "settle_receipt_gap_brief_106",
+    "checkout_friction_map_112",
+    "webhook_delivery_gap_audit_115",
+    "agent_outbound_sequence_audit_122",
+    "stripe_webhook_replay_brief_125",
+    "webhook_timeout_budget_brief_126",
+    "idempotency_key_audit_128",
+    "multi_rail_receipt_matrix_130",
+    "hollow_receipt_verifier_135",
+    "settle_confirm_ladder_brief_139",
+    "agent_desk_triage_pack_140",
+    "checkout_rail_failover_audit_141",
+    "write_ack_delivery_harness_145",
+    "landing_cta_conversion_audit_152",
+    "webhook_signature_clock_skew_brief_153",
+    "multi_rail_status_matrix_154",
+    "approval_join_key_audit_155",
+    "receipt_latency_budget_brief_166",
+    "multi_rail_fallback_matrix_167",
+    "outbound_chase_pack_7d",
+    "usdc_settle_ledger_assist_195",
+    "settle_ack_timeout_brief_181",
+    "multi_rail_retry_matrix_182"
+  ],
+  "redistributed": [
+    {
+      "offer_id": "landing_cta_rewrite_19",
+      "name": "Landing CTA rewrite pack (same-day)",
+      "amount_usd": 19.0,
+      "url": "https://buy.stripe.com/bJe4gs3o9gn2h0u0Jx3843f",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "api",
+        "post_id": "2565817e-8974-4595-b742-4bd55712da11",
+        "post_url": "https://www.moltbook.com/post/2565817e-8974-4595-b742-4bd55712da11",
+        "verified": true
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "loading_state_copy_pass_20",
+      "name": "Loading state copy pass (same-day)",
+      "amount_usd": 20.0,
+      "url": "https://buy.stripe.com/00wfZa6Al6Ms6lQeAn3843D",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "api",
+        "post_id": "d3fcac0e-5641-4015-8a4b-5471d0ca7a9d",
+        "post_url": "https://www.moltbook.com/post/d3fcac0e-5641-4015-8a4b-5471d0ca7a9d",
+        "verified": true
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "spinner_aria_label_pass_21",
+      "name": "Spinner ARIA label pass (same-day)",
+      "amount_usd": 21.0,
+      "url": "https://buy.stripe.com/9B69AM0bX2wc5hM63R3843F",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "api",
+        "post_id": "4726cd46-6468-4988-80c5-987ea7bdf52f",
+        "post_url": "https://www.moltbook.com/post/4726cd46-6468-4988-80c5-987ea7bdf52f",
+        "verified": true
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "nav_link_label_pass_22",
+      "name": "Nav link label pass (same-day)",
+      "amount_usd": 22.0,
+      "url": "https://buy.stripe.com/fZu00c6Al1s89y2gIv3843v",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "api",
+        "post_id": "db1d35b2-1c1c-4841-b74f-97b1447c7bff",
+        "post_url": "https://www.moltbook.com/post/db1d35b2-1c1c-4841-b74f-97b1447c7bff",
+        "verified": true
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "hover_hint_copy_pass_23",
+      "name": "Hover hint copy pass (same-day)",
+      "amount_usd": 23.0,
+      "url": "https://buy.stripe.com/6oUcMY4sd3Ag9y23VJ3843E",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "api",
+        "post_id": "4dc91a56-e181-4cc6-b9ac-71655d163867",
+        "post_url": "https://www.moltbook.com/post/4dc91a56-e181-4cc6-b9ac-71655d163867",
+        "verified": true
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "hero_subhead_tighten_24",
+      "name": "Hero subhead tighten pass (same-day)",
+      "amount_usd": 24.0,
+      "url": "https://buy.stripe.com/8x28wIf6R2wc39E8bZ3843r",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "alert_banner_copy_pass_25",
+      "name": "Alert banner copy pass (same-day)",
+      "amount_usd": 25.0,
+      "url": "https://buy.stripe.com/eVq3co8It3Ag25A63R3843B",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "meta_description_pass_26",
+      "name": "Meta description pass (same-day)",
+      "amount_usd": 26.0,
+      "url": "https://buy.stripe.com/aFa28kbUF6MsbGa4ZN3843x",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "settle_retry_checklist_27",
+      "name": "Settle-retry checklist (same-day)",
+      "amount_usd": 27.0,
+      "url": "https://buy.stripe.com/00waEQf6R3AgdOigIv3843g",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "faq_answer_rewrite_28",
+      "name": "FAQ answer rewrite pack (same-day)",
+      "amount_usd": 28.0,
+      "url": "https://buy.stripe.com/7sY5kw0bX8UA25A9g33843t",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "button_label_pass_30",
+      "name": "Button label pass (same-day)",
+      "amount_usd": 30.0,
+      "url": "https://buy.stripe.com/aFa8wIaQB9YE11wfEr3843z",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "checkbox_consent_copy_pass_31",
+      "name": "Checkbox consent copy pass (48h)",
+      "amount_usd": 31.0,
+      "url": "https://buy.stripe.com/eVqbIU6Al4EkcKefEr3843C",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "empty_state_copy_pass_32",
+      "name": "Empty-state copy pass (48h)",
+      "amount_usd": 32.0,
+      "url": "https://buy.stripe.com/6oU14g5whb2IbGa3VJ3843w",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "form_placeholder_pass_33",
+      "name": "Form placeholder pass (48h)",
+      "amount_usd": 33.0,
+      "url": "https://buy.stripe.com/4gMbIU6Al2wc4dI8bZ3843A",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "listing_copy_pack_34",
+      "name": "Listing copy pack (3 blurbs, 48h)",
+      "amount_usd": 34.0,
+      "url": "https://buy.stripe.com/5kQeV6f6R5Io4dIeAn3843h",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "footer_nav_pass_36",
+      "name": "Footer nav pass (48h)",
+      "amount_usd": 36.0,
+      "url": "https://buy.stripe.com/bJe14g4sdc6M7pU9g33843y",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "offer_blurb_tighten_38",
+      "name": "Offer blurb tighten (same-day)",
+      "amount_usd": 38.0,
+      "url": "https://buy.stripe.com/14A6oAcYJ5Io8tYcsf3843l",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "desk_board_headline_pass_42",
+      "name": "Desk-board headline pass (same-day)",
+      "amount_usd": 42.0,
+      "url": "https://buy.stripe.com/8x28wIf6Rgn2eSm2RF3843n",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "cta_microcopy_tighten_44",
+      "name": "CTA microcopy tighten pass (same-day)",
+      "amount_usd": 44.0,
+      "url": "https://buy.stripe.com/7sYcMY0bXb2IcKe63R3843p",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "outbound_callout_rewrite_46",
+      "name": "Outbound callout rewrite (same-day)",
+      "amount_usd": 46.0,
+      "url": "https://buy.stripe.com/7sY4gs1g16Ms9y263R3843i",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "error_state_copy_pass_48",
+      "name": "Checkout error-state copy pass (48h)",
+      "amount_usd": 48.0,
+      "url": "https://buy.stripe.com/4gM14gf6RfiY8tY8bZ3843s",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "thankyou_cta_pass_50",
+      "name": "Thank-you page CTA pass (48h)",
+      "amount_usd": 50.0,
+      "url": "https://buy.stripe.com/5kQ9AMcYJ0o4aC63VJ3843u",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "success_page_copy_pass_52",
+      "name": "Checkout success-page copy pass (48h)",
+      "amount_usd": 52.0,
+      "url": "https://buy.stripe.com/eVq9AMaQB2wc7pU77V3843q",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "checkout_friction_mini_audit_54",
+      "name": "Checkout friction mini-audit (48h)",
+      "amount_usd": 54.0,
+      "url": "https://buy.stripe.com/4gM9AMf6R1s89y2ak73843j",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "receipt_email_plain_pass_56",
+      "name": "Receipt-email plain-English pass (48h)",
+      "amount_usd": 56.0,
+      "url": "https://buy.stripe.com/8x23co9Mxb2I6lQ77V3843o",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "payment_link_copy_pass_58",
+      "name": "Payment-link copy pass (48h)",
+      "amount_usd": 58.0,
+      "url": "https://buy.stripe.com/3cIaEQ2k50o4cKeeAn3843m",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "helper_text_copy_pass_62",
+      "name": "Helper text copy pass (same-day)",
+      "amount_usd": 62.0,
+      "url": "https://buy.stripe.com/bJe5kw8ItfiYdOi9g33843G",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "confirm_dialog_copy_pass_64",
+      "name": "Confirm dialog copy pass (same-day)",
+      "amount_usd": 64.0,
+      "url": "https://buy.stripe.com/00w00c7EpeeU6lQ0Jx3843H",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "inline_validation_copy_pass_66",
+      "name": "Inline validation copy pass (same-day)",
+      "amount_usd": 66.0,
+      "url": "https://buy.stripe.com/eVqaEQaQB8UAh0u1NB3843I",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "multi_rail_status_onepager_68",
+      "name": "Multi-rail settle status one-pager (48h)",
+      "amount_usd": 68.0,
+      "url": "https://buy.stripe.com/28EeV60bX8UAeSmdwj3843k",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "draft_file",
+        "http_status": 429,
+        "error": "Rate limit exceeded",
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "API write failed; draft queued for retry \u2014 not a human share step."
+      },
+      "errors": [],
+      "lane": "cash_push",
+      "sku_kind": "conversion_service"
+    },
+    {
+      "offer_id": "wallet_chain_reconcile_95",
+      "name": "Wallet-vs-chain USDC reconcile note",
+      "amount_usd": 95.0,
+      "url": "https://buy.stripe.com/9B67sE2k57QwaC63VJ38417",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 80.83662390708923,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "cors_cookie_auth_debug_brief",
+      "name": "CORS / cookie-auth debug brief",
+      "amount_usd": 105.0,
+      "url": "https://buy.stripe.com/dRm9AMgaVgn2fWqeAn3841r",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 83.70577597618103,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "settle_receipt_gap_brief_106",
+      "name": "Settle receipt gap brief",
+      "amount_usd": 106.0,
+      "url": "https://buy.stripe.com/28E5kwcYJ2wcfWqak73841W",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 86.5366940498352,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "checkout_friction_map_112",
+      "name": "Checkout friction map brief",
+      "amount_usd": 112.0,
+      "url": "https://buy.stripe.com/cNi28k7Ep4Ek9y277V38426",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 89.37339305877686,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "webhook_delivery_gap_audit_115",
+      "name": "Webhook delivery gap audit",
+      "amount_usd": 115.0,
+      "url": "https://buy.stripe.com/00w4gs7Epb2IdOi1NB3841B",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 92.38784003257751,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "agent_outbound_sequence_audit_122",
+      "name": "Agent outbound sequence audit",
+      "amount_usd": 122.0,
+      "url": "https://buy.stripe.com/14A00c0bX3Ag8tY1NB3841X",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 95.31463694572449,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "stripe_webhook_replay_brief_125",
+      "name": "Stripe webhook replay brief",
+      "amount_usd": 125.0,
+      "url": "https://buy.stripe.com/aFa00c2k5c6M4dI9g33841M",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 98.27030205726624,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "webhook_timeout_budget_brief_126",
+      "name": "Webhook timeout budget brief",
+      "amount_usd": 126.0,
+      "url": "https://buy.stripe.com/3cI14gcYJ5IoeSm0Jx3842q",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 101.23320889472961,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "idempotency_key_audit_128",
+      "name": "Idempotency key audit pack",
+      "amount_usd": 128.0,
+      "url": "https://buy.stripe.com/7sYcMY0bXfiYh0u0Jx38427",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 104.21505498886108,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "multi_rail_receipt_matrix_130",
+      "name": "Multi-rail receipt matrix pack",
+      "amount_usd": 130.0,
+      "url": "https://buy.stripe.com/9B6aEQgaV4EkfWq0Jx3842r",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 107.2104799747467,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "hollow_receipt_verifier_135",
+      "name": "Hollow-success receipt verifier pack",
+      "amount_usd": 135.0,
+      "url": "https://buy.stripe.com/3cI6oA4sd9YEdOicsf3840Y",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 110.10323095321655,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "settle_confirm_ladder_brief_139",
+      "name": "Settle confirm ladder brief",
+      "amount_usd": 139.0,
+      "url": "https://buy.stripe.com/14A8wIcYJ1s8fWq0Jx3842A",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 112.99582695960999,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "agent_desk_triage_pack_140",
+      "name": "Agent desk triage pack",
+      "amount_usd": 140.0,
+      "url": "https://buy.stripe.com/eVq3cocYJ9YE4dI1NB3841C",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 115.84165787696838,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "checkout_rail_failover_audit_141",
+      "name": "Checkout rail failover audit",
+      "amount_usd": 141.0,
+      "url": "https://buy.stripe.com/bJefZa8It6MscKecsf3842B",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 118.68326592445374,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "write_ack_delivery_harness_145",
+      "name": "Write-ack vs delivery proof harness",
+      "amount_usd": 145.0,
+      "url": "https://buy.stripe.com/5kQdR2bUFb2I7pU2RF38411",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 121.56838202476501,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "landing_cta_conversion_audit_152",
+      "name": "Landing CTA conversion audit",
+      "amount_usd": 152.0,
+      "url": "https://buy.stripe.com/4gMdR29MxfiY8tY0Jx3841N",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 124.48189401626587,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "webhook_signature_clock_skew_brief_153",
+      "name": "Webhook signature clock-skew brief",
+      "amount_usd": 153.0,
+      "url": "https://buy.stripe.com/cNi3coaQB0o439EeAn3842K",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 127.39232397079468,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "multi_rail_status_matrix_154",
+      "name": "Multi-rail status matrix pack",
+      "amount_usd": 154.0,
+      "url": "https://buy.stripe.com/eVqcMY3o96Ms6lQfEr3842L",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 130.36296486854553,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "approval_join_key_audit_155",
+      "name": "Approval/invoice join-key audit",
+      "amount_usd": 155.0,
+      "url": "https://buy.stripe.com/7sY7sEgaVfiYdOi2RF3840Z",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 133.35577201843262,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "receipt_latency_budget_brief_166",
+      "name": "Receipt latency budget brief",
+      "amount_usd": 166.0,
+      "url": "https://buy.stripe.com/14A9AM1g17Qw8tY77V3842U",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 136.19434905052185,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "multi_rail_fallback_matrix_167",
+      "name": "Multi-rail fallback matrix",
+      "amount_usd": 167.0,
+      "url": "https://buy.stripe.com/7sYbIUf6R3Ag9y23VJ3842V",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 139.12634587287903,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "outbound_chase_pack_7d",
+      "name": "Outbound buyer-chase pack (7-day)",
+      "amount_usd": 170.0,
+      "url": "https://buy.stripe.com/00wbIU9Mx3AgeSm9g33841o",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 142.04632782936096,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "usdc_settle_ledger_assist_195",
+      "name": "USDC settle + ledger assist",
+      "amount_usd": 195.0,
+      "url": "https://buy.stripe.com/fZucMYcYJdaQ9y2fEr3841D",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 145.20033597946167,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "settle_ack_timeout_brief_181",
+      "name": "Settle ack timeout brief",
+      "amount_usd": 181.0,
+      "url": "https://buy.stripe.com/00wbIU1g15IoeSm4ZN38437",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 148.2004039287567,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "multi_rail_retry_matrix_182",
+      "name": "Multi-rail retry matrix pack",
+      "amount_usd": 182.0,
+      "url": "https://buy.stripe.com/cNi28kf6R0o4bGaak738438",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 151.074285030365,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "opp",
+      "sku_kind": "service_demand"
+    },
+    {
+      "offer_id": "hiring_spotlight_48h",
+      "name": "Agent-ops hiring / job spotlight (48-hour)",
+      "amount_usd": 29.0,
+      "url": "https://buy.stripe.com/aFa6oA8It4Ekh0u4ZN3841k",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 153.95906400680542,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_flash_bump_24h",
+      "name": "Agent-ops classified flash bump (24-hour)",
+      "amount_usd": 35.0,
+      "url": "https://buy.stripe.com/14A3co3o93Ag5hM2RF3841s",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 156.90138697624207,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_events_ad_slot_1w",
+      "name": "Agent-ops classified / events ad slot (1 week)",
+      "amount_usd": 39.0,
+      "url": "https://buy.stripe.com/3cI9AM1g15IocKe8bZ3841c",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 159.8780210018158,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_morning_bump_24h",
+      "name": "Agent-ops classified morning bump (24-hour)",
+      "amount_usd": 43.0,
+      "url": "https://buy.stripe.com/dRmfZae2N2wc39E8bZ3841z",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 162.69495487213135,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_banner_sponsor_7d",
+      "name": "Community stream banner sponsor (7-day prepaid)",
+      "amount_usd": 45.0,
+      "url": "https://buy.stripe.com/bJecMY0bXeeUh0ueAn3841h",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 165.63433694839478,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_weekend_spotlight_48h",
+      "name": "Agent-ops directory weekend spotlight (48-hour)",
+      "amount_usd": 51.0,
+      "url": "https://buy.stripe.com/7sYbIUe2N2wc6lQbob3841E",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 168.48172187805176,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "newsletter_midissue_callout_1issue",
+      "name": "Agent-ops newsletter mid-issue callout (1 issue)",
+      "amount_usd": 61.0,
+      "url": "https://buy.stripe.com/7sY4gs8It9YEfWq77V3841F",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 171.38979387283325,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_weekend_takeover_48h",
+      "name": "Community stream weekend takeover shoutout (48-hour)",
+      "amount_usd": 63.0,
+      "url": "https://buy.stripe.com/fZuaEQgaV5Io11weAn3841G",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 174.33981704711914,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "newsletter_footer_cta_1issue",
+      "name": "Agent-ops newsletter footer CTA block (1 issue)",
+      "amount_usd": 67.0,
+      "url": "https://buy.stripe.com/8x2bIUcYJ2wc6lQ63R3841H",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 177.1984920501709,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_midweek_spotlight_48h",
+      "name": "Agent-ops directory midweek spotlight (48-hour)",
+      "amount_usd": 71.0,
+      "url": "https://buy.stripe.com/cNi3cobUF0o4eSm2RF3841I",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 180.10893201828003,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_midnight_bump_24h",
+      "name": "Agent-ops classified midnight bump (24-hour)",
+      "amount_usd": 72.0,
+      "url": "https://buy.stripe.com/eVq7sE1g17QwcKe9g33842e",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 182.98830604553223,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_evening_bump_24h",
+      "name": "Agent-ops classified evening bump (24-hour)",
+      "amount_usd": 73.0,
+      "url": "https://buy.stripe.com/9B600c5wh8UA5hMak73841K",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 185.84026885032654,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_twilight_bump_24h",
+      "name": "Agent-ops classified twilight bump (24-hour)",
+      "amount_usd": 74.0,
+      "url": "https://buy.stripe.com/6oU8wIbUF6Ms5hM77V3842c",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 188.7725100517273,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_late_day_bump_24h",
+      "name": "Agent-ops classified late-day bump (24-hour)",
+      "amount_usd": 76.0,
+      "url": "https://buy.stripe.com/5kQ28k5whdaQ8tYbob3842a",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 191.76329398155212,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "newsletter_sponsor_strip_1issue",
+      "name": "Agent-ops newsletter mid-issue sponsor strip (1 issue)",
+      "amount_usd": 77.0,
+      "url": "https://buy.stripe.com/7sY4gse2N7Qw9y263R3841J",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 194.70213890075684,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_afternoon_bump_24h",
+      "name": "Agent-ops classified afternoon bump (24-hour)",
+      "amount_usd": 78.0,
+      "url": "https://buy.stripe.com/8x24gs4sd3Ag5hMcsf38428",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 197.82779502868652,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_sidebar_mention_7d",
+      "name": "Community stream sidebar mention (7-day)",
+      "amount_usd": 81.0,
+      "url": "https://buy.stripe.com/aFa5kw7Ep7Qw11w2RF3841L",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 200.67191100120544,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "newsletter_ps_bump_1issue",
+      "name": "Newsletter PS bump (1 issue)",
+      "amount_usd": 82.0,
+      "url": "https://buy.stripe.com/28EaEQ0bX4EkcKe8bZ38424",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 203.55998301506042,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_lower_third_mention_24h",
+      "name": "Community stream lower-third mention (24-hour)",
+      "amount_usd": 83.0,
+      "url": "https://buy.stripe.com/dRm9AM8It4Ek9y2csf3841O",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 206.40503191947937,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_sidebar_chip_48h",
+      "name": "Directory sidebar chip (48-hour)",
+      "amount_usd": 84.0,
+      "url": "https://buy.stripe.com/eVq00c7Ep8UAdOi8bZ38425",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 209.21377205848694,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_midroll_sticker_24h",
+      "name": "Community stream midroll sticker mention (24-hour)",
+      "amount_usd": 86.0,
+      "url": "https://buy.stripe.com/00w8wI5wh0o4aC663R38422",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 212.1151659488678,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_midroll_chip_24h",
+      "name": "Community stream midroll chip mention (24-hour)",
+      "amount_usd": 88.0,
+      "url": "https://buy.stripe.com/4gMfZagaV8UA6lQ0Jx38421",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 214.97909784317017,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_logo_tile_48h",
+      "name": "Agent-ops directory logo tile (48-hour)",
+      "amount_usd": 92.0,
+      "url": "https://buy.stripe.com/14A14gcYJ8UA6lQfEr38420",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 217.92629384994507,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_tool_chip_48h",
+      "name": "Agent-ops directory tool-chip highlight (48-hour)",
+      "amount_usd": 96.0,
+      "url": "https://buy.stripe.com/dRm7sEbUFgn26lQ2RF3841Y",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 220.88898301124573,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "mcp_tools_featured_pack_7d",
+      "name": "MCP / agent-tools featured pack (7-day)",
+      "amount_usd": 99.0,
+      "url": "https://buy.stripe.com/6oUaEQ9Mx4EkeSm63R3841i",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 223.81198596954346,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_homepage_pin_48h",
+      "name": "Agent-ops directory homepage pin (48-hour)",
+      "amount_usd": 102.0,
+      "url": "https://buy.stripe.com/6oU8wI9Mx1s88tYak738423",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 226.7966320514679,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_footer_chip_48h",
+      "name": "Agent-ops directory footer chip (48-hour)",
+      "amount_usd": 103.0,
+      "url": "https://buy.stripe.com/9B66oA4sd4Ekh0u9g338429",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 229.72853684425354,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_nav_chip_48h",
+      "name": "Agent-ops directory nav chip (48-hour)",
+      "amount_usd": 104.0,
+      "url": "https://buy.stripe.com/bJe7sEaQB4EkcKe0Jx3842b",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 232.59642601013184,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_header_chip_48h",
+      "name": "Agent-ops directory header chip (48-hour)",
+      "amount_usd": 107.0,
+      "url": "https://buy.stripe.com/8x23co7Ep1s8bGa0Jx3842f",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 235.81605887413025,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_rail_chip_48h",
+      "name": "Agent-ops directory rail chip (48-hour)",
+      "amount_usd": 108.0,
+      "url": "https://buy.stripe.com/eVq14gf6R4EkeSm8bZ3842d",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 238.70262694358826,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_subnav_chip_48h",
+      "name": "Agent-ops directory subnav chip (48-hour)",
+      "amount_usd": 111.0,
+      "url": "https://buy.stripe.com/aFa9AM8It6MsbGaeAn3842i",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 241.6747989654541,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_after_hours_bump_24h",
+      "name": "Agent-ops classified after-hours bump (24-hour)",
+      "amount_usd": 113.0,
+      "url": "https://buy.stripe.com/6oU5kw9Mxc6MeSmdwj3842j",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 244.5969090461731,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_owl_shift_bump_24h",
+      "name": "Agent-ops classified owl-shift bump (24-hour)",
+      "amount_usd": 114.0,
+      "url": "https://buy.stripe.com/9B614ggaV2wcbGa4ZN3842k",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 247.5501308441162,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_breadcrumb_chip_48h",
+      "name": "Agent-ops directory breadcrumb chip (48-hour)",
+      "amount_usd": 116.0,
+      "url": "https://buy.stripe.com/cNi7sE3o9gn2fWqbob3842l",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 250.41823601722717,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_graveyard_bump_24h",
+      "name": "Agent-ops classified graveyard bump (24-hour)",
+      "amount_usd": 117.0,
+      "url": "https://buy.stripe.com/14AcMYcYJ0o46lQdwj3842m",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 253.30663800239563,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_filter_chip_48h",
+      "name": "Agent-ops directory filter chip (48-hour)",
+      "amount_usd": 121.0,
+      "url": "https://buy.stripe.com/00w7sE6Al6Ms4dIak73842n",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 256.30073595046997,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_pre_dawn_bump_24h",
+      "name": "Agent-ops classified pre-dawn bump (24-hour)",
+      "amount_usd": 123.0,
+      "url": "https://buy.stripe.com/aFafZa7EpeeUaC60Jx3842o",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 259.2368760108948,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_results_chip_48h",
+      "name": "Agent-ops directory results chip (48-hour)",
+      "amount_usd": 124.0,
+      "url": "https://buy.stripe.com/cNi8wI6AldaQdOigIv3842p",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 262.1706049442291,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_blue_hour_bump_24h",
+      "name": "Agent-ops classified blue-hour bump (24-hour)",
+      "amount_usd": 127.0,
+      "url": "https://buy.stripe.com/5kQ4gs1g13AgbGafEr3842s",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 265.0712139606476,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_facets_chip_48h",
+      "name": "Agent-ops directory facets chip (48-hour)",
+      "amount_usd": 131.0,
+      "url": "https://buy.stripe.com/bJecMY4sd2wc5hM2RF3842t",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 267.96953296661377,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_civil_twilight_bump_24h",
+      "name": "Agent-ops classified civil-twilight bump (24-hour)",
+      "amount_usd": 132.0,
+      "url": "https://buy.stripe.com/4gMeV6gaVgn25hMgIv3842u",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 271.3334529399872,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_sort_chip_48h",
+      "name": "Agent-ops directory sort chip (48-hour)",
+      "amount_usd": 133.0,
+      "url": "https://buy.stripe.com/00wfZa0bX5Io9y20Jx3842v",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 274.34351086616516,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_golden_hour_bump_24h",
+      "name": "Agent-ops classified golden-hour bump (24-hour)",
+      "amount_usd": 134.0,
+      "url": "https://buy.stripe.com/8x23co7Epgn2h0udwj3842w",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 277.30850291252136,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_pager_chip_48h",
+      "name": "Agent-ops directory pager chip (48-hour)",
+      "amount_usd": 136.0,
+      "url": "https://buy.stripe.com/fZu6oAbUFgn2fWq0Jx3842x",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 280.2294239997864,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_sunrise_bump_24h",
+      "name": "Agent-ops classified sunrise bump (24-hour)",
+      "amount_usd": 137.0,
+      "url": "https://buy.stripe.com/7sY7sE8It9YE8tY9g33842y",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 283.050283908844,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_tab_chip_48h",
+      "name": "Agent-ops directory tab chip (48-hour)",
+      "amount_usd": 138.0,
+      "url": "https://buy.stripe.com/3cIdR28It2wc4dIfEr3842z",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 285.89009284973145,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_commute_bump_24h",
+      "name": "Agent-ops classified commute bump (24-hour)",
+      "amount_usd": 142.0,
+      "url": "https://buy.stripe.com/28EdR2e2Ngn25hMgIv3842C",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 288.7725360393524,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_query_chip_48h",
+      "name": "Agent-ops directory query chip (48-hour)",
+      "amount_usd": 143.0,
+      "url": "https://buy.stripe.com/6oU6oAgaV3AgdOifEr3842D",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 291.56703305244446,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_rush_hour_bump_24h",
+      "name": "Agent-ops classified rush-hour bump (24-hour)",
+      "amount_usd": 144.0,
+      "url": "https://buy.stripe.com/aFa5kwf6R1s8bGaeAn3842E",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 294.5919828414917,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_search_chip_48h",
+      "name": "Agent-ops directory search chip (48-hour)",
+      "amount_usd": 146.0,
+      "url": "https://buy.stripe.com/28EaEQ9Mxb2IcKe4ZN3842F",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 297.4533610343933,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_midday_peak_bump_24h",
+      "name": "Agent-ops classified midday-peak bump (24-hour)",
+      "amount_usd": 147.0,
+      "url": "https://buy.stripe.com/8x2bIUe2NfiYeSmgIv3842G",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 300.3791859149933,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_suggest_chip_48h",
+      "name": "Agent-ops directory suggest chip (48-hour)",
+      "amount_usd": 148.0,
+      "url": "https://buy.stripe.com/cNibIUf6R1s85hMak73842H",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 303.2512309551239,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_lunch_window_bump_24h",
+      "name": "Agent-ops classified lunch-window bump (24-hour)",
+      "amount_usd": 150.0,
+      "url": "https://buy.stripe.com/00w6oAcYJ5Io4dI63R3842I",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 306.1689028739929,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_autocomplete_chip_48h",
+      "name": "Agent-ops directory autocomplete chip (48-hour)",
+      "amount_usd": 151.0,
+      "url": "https://buy.stripe.com/7sY3cof6R3AgfWqak73842J",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 309.07202196121216,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_siesta_bump_24h",
+      "name": "Agent-ops classified siesta-window bump (24-hour)",
+      "amount_usd": 156.0,
+      "url": "https://buy.stripe.com/fZu6oA8It9YEh0ubob3842M",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 311.9960858821869,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_typeahead_chip_48h",
+      "name": "Agent-ops directory typeahead chip (48-hour)",
+      "amount_usd": 157.0,
+      "url": "https://buy.stripe.com/3cIfZae2Ngn2dOi9g33842N",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 314.9110689163208,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_tea_time_bump_24h",
+      "name": "Agent-ops classified tea-time bump (24-hour)",
+      "amount_usd": 158.0,
+      "url": "https://buy.stripe.com/aFa5kw1g1gn28tY77V3842O",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 318.05459690093994,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_snippet_chip_48h",
+      "name": "Agent-ops directory snippet chip (48-hour)",
+      "amount_usd": 159.0,
+      "url": "https://buy.stripe.com/eVqaEQcYJ6MsbGacsf3842P",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 320.8506820201874,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_happy_hour_bump_24h",
+      "name": "Agent-ops classified happy-hour bump (24-hour)",
+      "amount_usd": 161.0,
+      "url": "https://buy.stripe.com/00waEQ1g1b2IbGacsf3842Q",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 323.7295000553131,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_preview_chip_48h",
+      "name": "Agent-ops directory preview chip (48-hour)",
+      "amount_usd": 162.0,
+      "url": "https://buy.stripe.com/dRmfZa2k58UA6lQ0Jx3842R",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 326.5957980155945,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_power_hour_bump_24h",
+      "name": "Agent-ops classified power-hour bump (24-hour)",
+      "amount_usd": 163.0,
+      "url": "https://buy.stripe.com/6oUfZabUF2wcbGa0Jx3842S",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 329.54059290885925,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_hover_chip_48h",
+      "name": "Agent-ops directory hover chip (48-hour)",
+      "amount_usd": 164.0,
+      "url": "https://buy.stripe.com/5kQeV68ItfiY6lQ0Jx3842T",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 332.52069306373596,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_prime_time_bump_24h",
+      "name": "Agent-ops classified prime-time bump (24-hour)",
+      "amount_usd": 168.0,
+      "url": "https://buy.stripe.com/eVqaEQ7Epgn29y2ak73842W",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 335.5094258785248,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_focus_ring_chip_48h",
+      "name": "Agent-ops directory focus-ring chip (48-hour)",
+      "amount_usd": 169.0,
+      "url": "https://buy.stripe.com/5kQ00c2k5c6M6lQ77V3842X",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 338.3730390071869,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_dinner_hour_bump_24h",
+      "name": "Agent-ops classified dinner-hour bump (24-hour)",
+      "amount_usd": 171.0,
+      "url": "https://buy.stripe.com/aFa5kw7EpdaQ8tYak73842Y",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 341.2908818721771,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_active_state_chip_48h",
+      "name": "Agent-ops directory active-state chip (48-hour)",
+      "amount_usd": 172.0,
+      "url": "https://buy.stripe.com/6oU6oAcYJ8UA11wdwj3842Z",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 344.1605050563812,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_preroll_chip_24h",
+      "name": "Agent-ops stream preroll chip (24-hour)",
+      "amount_usd": 173.0,
+      "url": "https://buy.stripe.com/8x28wI5wh9YEbGadwj38430",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 347.1151509284973,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_late_prime_bump_24h",
+      "name": "Agent-ops classified late-prime bump (24-hour)",
+      "amount_usd": 174.0,
+      "url": "https://buy.stripe.com/3cIfZae2N4EkcKe2RF38431",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 349.9848539829254,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_selected_chip_48h",
+      "name": "Agent-ops directory selected-state chip (48-hour)",
+      "amount_usd": 176.0,
+      "url": "https://buy.stripe.com/4gM4gs0bXb2I7pU3VJ38432",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 352.95346903800964,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_bumper_chip_24h",
+      "name": "Agent-ops stream bumper chip (24-hour)",
+      "amount_usd": 177.0,
+      "url": "https://buy.stripe.com/eVq9AMbUF4Ek8tY1NB38433",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 355.87433385849,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_wrap_up_bump_24h",
+      "name": "Agent-ops classified wrap-up bump (24-hour)",
+      "amount_usd": 178.0,
+      "url": "https://buy.stripe.com/9B628k4sd3AgdOi2RF38434",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 358.8273069858551,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_pressed_chip_48h",
+      "name": "Agent-ops directory pressed-state chip (48-hour)",
+      "amount_usd": 179.0,
+      "url": "https://buy.stripe.com/28E9AM0bXfiY39E0Jx38435",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 361.79120898246765,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "newsletter_eyebrow_callout_1issue",
+      "name": "Agent-ops newsletter eyebrow callout (1 issue)",
+      "amount_usd": 180.0,
+      "url": "https://buy.stripe.com/7sY4gs6Alc6M9y2ak738436",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 364.74177289009094,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_closeout_bump_24h",
+      "name": "Agent-ops classified closeout bump (24-hour)",
+      "amount_usd": 183.0,
+      "url": "https://buy.stripe.com/dRm8wIcYJc6M39E9g338439",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 367.5815830230713,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_disabled_chip_48h",
+      "name": "Agent-ops directory disabled-state chip (48-hour)",
+      "amount_usd": 184.0,
+      "url": "https://buy.stripe.com/dRm5kwe2N9YE9y263R3843a",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 370.56717705726624,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_stinger_chip_24h",
+      "name": "Agent-ops stream stinger chip (24-hour)",
+      "amount_usd": 186.0,
+      "url": "https://buy.stripe.com/14AcMYe2N7QweSm3VJ3843b",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 373.4330198764801,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "classified_last_call_bump_24h",
+      "name": "Agent-ops classified last-call bump (24-hour)",
+      "amount_usd": 187.0,
+      "url": "https://buy.stripe.com/aFa00c4sd1s839E8bZ3843c",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 376.4064199924469,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "directory_empty_chip_48h",
+      "name": "Agent-ops directory empty-state chip (48-hour)",
+      "amount_usd": 188.0,
+      "url": "https://buy.stripe.com/eVqbIUcYJ3Ag25A8bZ3843d",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 379.3029839992523,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    },
+    {
+      "offer_id": "stream_outro_chip_24h",
+      "name": "Agent-ops stream outro chip (24-hour)",
+      "amount_usd": 189.0,
+      "url": "https://buy.stripe.com/9B63cof6Rc6MaC6ak73843e",
+      "rails": [
+        "stripe_card",
+        "stripe_link",
+        "usdc"
+      ],
+      "posted": [
+        "moltbook",
+        "landing_pages",
+        "desk_board"
+      ],
+      "queued": [
+        "outbound_queue"
+      ],
+      "human_share_required": false,
+      "ok": true,
+      "moltbook": {
+        "ok": true,
+        "channel": "moltbook",
+        "via": "cooldown_skip",
+        "cooldown_age_s": 382.20854783058167,
+        "path": "C:\\Users\\marcu\\Desktop\\Sandbox\\BankrollBuilder\\data\\desk\\moltbook_offer_drafts.jsonl",
+        "note": "Prior Moltbook API post still within cooldown; draft queued."
+      },
+      "errors": [],
+      "lane": "hunt",
+      "sku_kind": "invent_inventory"
+    }
+  ],
+  "channels_hit": [
+    "desk_board",
+    "landing_pages",
+    "moltbook",
+    "outbound_queue"
+  ],
+  "moltbook_via_counts": {
+    "api": 5,
+    "draft_file": 25,
+    "cooldown_skip": 104
+  },
+  "warm_leads": [],
+  "skipped": [],
+  "errors": [],
+  "open_approval_count": 11,
+  "gates_left_pending": [
+    "ua-67781ddf97f9",
+    "ua-aec1b0000c4b",
+    "ua-6e6c2ba79e0b",
+    "ua-e17a9ca93099",
+    "ua-2b5d582c18c5",
+    "ua-069ddf410e68",
+    "ua-6b80101a7db2",
+    "ua-8bd2dbd59e35",
+    "ua-e255e9db8f30",
+    "ua-49938e03fdbf",
+    "ua-08e20fc81241"
+  ],
+  "new_ua_ids": [],
+  "opp_light": {
+    "new_service_skus": [],
+    "new_ua_ids": [],
+    "note": "Light 4h opp: conversion/service SKUs only; no invent inflate; no NEW ua-*"
+  },
+  "note": "Cash books only after Stripe paid or USDC settle --confirm. Policy: min_capital_proposal_likelihood_pct=60, cash_deadline_days=10, prefer_conversion_over_invent. NEW ua-*=0. Existing ua-* left PENDING. Stack left UP. Buyer chase: outbound refreshed; warm_leads not fabricated. No $170+ invent inflate."
+}
