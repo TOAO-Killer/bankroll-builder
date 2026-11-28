@@ -1,6 +1,6 @@
 # BankrollBuilder notify digest
 
-_Updated: 2026-11-28T07:07:55-07:00 (America/Denver)_  
+_Updated: 2026-11-28T08:08:07-07:00 (America/Denver)_  
 _Check: `manual` · Stack: **UP** · Cash booked: $0.00_
 
 Primary operator surface: **this Project chat**. Reply accept/decline per approval id; coordinator applies CLI. Do not treat CLI as required for the user.

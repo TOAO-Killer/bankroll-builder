@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at_denver": "2026-11-28T07:07:55-07:00",
-  "updated_at_utc": "2026-11-28T14:07:55+00:00",
+  "updated_at_denver": "2026-11-28T08:08:07-07:00",
+  "updated_at_utc": "2026-11-28T15:08:07+00:00",
   "check_type": "manual",
   "surface": "project_chat",
   "policy": {
@@ -54,7 +54,7 @@
         ]
       }
     },
-    "probed_at_denver": "2026-11-28T07:07:55-07:00"
+    "probed_at_denver": "2026-11-28T08:08:07-07:00"
   },
   "cash_booked_usd": 0.0,
   "OPEN_APPROVALS": [
